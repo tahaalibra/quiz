@@ -1,0 +1,698 @@
+[27-Dec-2014 10:03:18 Europe/Berlin] PHP Notice:  Undefined offset: 0 in E:\xampp\htdocs\Kitchen\boot\init.php on line 63
+[27-Dec-2014 10:03:18 Europe/Berlin] PHP Parse error:  syntax error, unexpected ';', expecting '(' in E:\xampp\htdocs\Kitchen\library\controller.class.php on line 15
+[07-Jan-2015 22:32:06 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 22:32:06 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 22:32:06 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 22:32:06 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 22:32:06 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 22:32:06 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 22:32:06 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 22:32:06 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 22:32:09 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 22:32:11 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 22:32:11 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 22:32:11 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 22:32:11 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 22:32:11 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 22:32:11 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 22:32:11 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 22:32:11 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 22:32:29 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 22:33:50 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 22:47:02 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 22:47:03 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 22:47:03 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 22:47:03 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 22:47:03 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 22:47:03 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 22:47:03 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 22:47:03 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 22:47:03 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 22:54:13 Europe/Berlin] PHP Warning:  Missing argument 4 for template::__construct(), called in E:\xampp\htdocs\quiz\app\controllers\error_404_controller.php on line 9 and defined in E:\xampp\htdocs\quiz\core\template.class.php on line 39
+[07-Jan-2015 22:54:43 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 22:54:44 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 22:54:44 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 22:54:44 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 22:54:44 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 22:54:44 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 22:54:44 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 22:54:44 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 22:54:44 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 22:56:35 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 22:56:43 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 22:56:43 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 22:56:43 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 22:56:43 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 22:56:43 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 22:56:43 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 22:56:43 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 22:56:43 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 22:56:50 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 22:57:00 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 22:57:00 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 22:57:00 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 22:57:00 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 22:57:00 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 22:57:00 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 22:57:00 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 22:57:00 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 22:57:03 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:14:18 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:14:51 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:14:55 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 11:14:55 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 11:14:55 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 11:14:55 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 11:14:55 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 11:14:55 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 11:14:55 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:14:55 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:15:02 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:15:05 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 11:15:05 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 11:15:05 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 11:15:05 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 11:15:05 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 11:15:05 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 11:15:05 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:15:05 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:15:29 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:15:46 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:15:50 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 11:15:50 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 11:15:50 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 11:15:50 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 11:15:50 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 11:15:50 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 11:15:50 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:15:50 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:15:51 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:15:53 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 11:15:53 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 11:15:53 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 11:15:53 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 11:15:53 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 11:15:53 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 11:15:53 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:15:53 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:15:54 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:15:57 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 11:15:57 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 11:15:57 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 11:15:57 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 11:15:57 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 11:15:57 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 11:15:57 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:15:57 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:16:14 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:16:17 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 11:16:17 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 11:16:17 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 11:16:17 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 11:16:17 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 11:16:17 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 11:16:17 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:16:17 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:16:56 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:17:29 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:17:32 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 11:17:32 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 11:17:32 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 11:17:32 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 11:17:32 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 11:17:32 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 11:17:32 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:17:32 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:23:54 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:23:56 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 11:23:56 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 11:23:56 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 11:23:56 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 11:23:56 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 11:23:56 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 11:23:56 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:23:56 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:24:45 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:24:48 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 11:24:48 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 11:24:48 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 11:24:48 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 11:24:48 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 11:24:48 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 11:24:48 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:24:48 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:40:25 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 11:40:25 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 11:40:25 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 11:40:25 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 11:40:25 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 11:40:25 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 11:40:25 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:40:25 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:40:28 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:40:31 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 11:40:31 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 11:40:31 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 11:40:31 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 11:40:31 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 11:40:31 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 11:40:31 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:40:31 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:40:39 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:40:42 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 11:40:42 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 11:40:42 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 11:40:42 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 11:40:42 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 11:40:42 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 11:40:42 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:40:42 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:42:05 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:42:07 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 11:42:07 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 11:42:07 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 11:42:07 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 11:42:07 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 11:42:07 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 11:42:07 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:42:07 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:42:15 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:42:17 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 11:42:17 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 11:42:17 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 11:42:17 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 11:42:17 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 11:42:17 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 11:42:17 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:42:17 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:42:28 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:42:31 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:42:31 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:42:31 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:42:31 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:42:31 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:42:33 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 11:42:33 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 11:42:33 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 11:42:33 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 11:42:33 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 11:42:33 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 11:42:33 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:42:33 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:42:35 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:42:35 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:42:35 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:42:35 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:42:35 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:42:35 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 32
+[07-Jan-2015 11:42:37 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:42:37 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:42:37 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:42:37 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:42:37 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:42:37 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 32
+[07-Jan-2015 11:42:38 Europe/Berlin] PHP Notice:  Undefined offset: 13 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:42:38 Europe/Berlin] PHP Notice:  Undefined offset: 13 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:42:38 Europe/Berlin] PHP Notice:  Undefined offset: 13 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:42:38 Europe/Berlin] PHP Notice:  Undefined offset: 13 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:42:38 Europe/Berlin] PHP Notice:  Undefined offset: 13 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:42:38 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 32
+[07-Jan-2015 11:42:39 Europe/Berlin] PHP Notice:  Undefined offset: 14 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:42:39 Europe/Berlin] PHP Notice:  Undefined offset: 14 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:42:39 Europe/Berlin] PHP Notice:  Undefined offset: 14 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:42:39 Europe/Berlin] PHP Notice:  Undefined offset: 14 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:42:39 Europe/Berlin] PHP Notice:  Undefined offset: 14 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:42:39 Europe/Berlin] PHP Notice:  Undefined offset: 13 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 32
+[07-Jan-2015 11:43:01 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:43:03 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:43:03 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:43:03 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:43:03 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:43:03 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:43:05 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:43:05 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:43:05 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:43:05 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:43:05 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:43:09 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:43:09 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:43:09 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:43:09 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:43:09 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:43:09 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 32
+[07-Jan-2015 11:43:15 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:43:15 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:43:15 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:43:15 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:43:15 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:43:15 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 32
+[07-Jan-2015 11:43:18 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:43:20 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:43:20 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:43:20 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:43:20 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:43:20 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:43:36 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:43:36 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:43:36 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:43:36 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:43:36 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:43:38 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:43:38 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:43:38 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:43:38 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:43:38 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:43:38 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 32
+[07-Jan-2015 11:43:39 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:43:39 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:43:39 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:43:39 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:43:39 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:43:39 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 32
+[07-Jan-2015 11:43:40 Europe/Berlin] PHP Notice:  Undefined offset: 13 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:43:40 Europe/Berlin] PHP Notice:  Undefined offset: 13 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:43:40 Europe/Berlin] PHP Notice:  Undefined offset: 13 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:43:40 Europe/Berlin] PHP Notice:  Undefined offset: 13 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:43:40 Europe/Berlin] PHP Notice:  Undefined offset: 13 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:43:40 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 32
+[07-Jan-2015 11:43:41 Europe/Berlin] PHP Notice:  Undefined offset: 14 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:43:41 Europe/Berlin] PHP Notice:  Undefined offset: 14 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:43:41 Europe/Berlin] PHP Notice:  Undefined offset: 14 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:43:41 Europe/Berlin] PHP Notice:  Undefined offset: 14 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:43:41 Europe/Berlin] PHP Notice:  Undefined offset: 14 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:43:41 Europe/Berlin] PHP Notice:  Undefined offset: 13 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 32
+[07-Jan-2015 11:43:48 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:43:48 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:43:48 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:43:48 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:43:48 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:43:48 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:44:12 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:44:12 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:44:12 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:44:12 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:44:12 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:44:12 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 32
+[07-Jan-2015 11:44:15 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:44:15 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:44:15 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:44:15 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:44:15 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:44:15 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 32
+[07-Jan-2015 11:44:30 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:44:32 Europe/Berlin] PHP Notice:  Undefined offset: 15 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:44:32 Europe/Berlin] PHP Notice:  Undefined offset: 15 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:44:32 Europe/Berlin] PHP Notice:  Undefined offset: 15 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:44:32 Europe/Berlin] PHP Notice:  Undefined offset: 15 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:44:32 Europe/Berlin] PHP Notice:  Undefined offset: 15 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:44:32 Europe/Berlin] PHP Notice:  Undefined offset: 14 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 32
+[07-Jan-2015 11:44:35 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 11:44:35 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 11:44:35 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 11:44:35 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 11:44:35 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 11:44:35 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 11:44:35 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:44:35 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:44:42 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:44:42 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:44:42 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:44:42 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:44:42 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:44:49 Europe/Berlin] PHP Notice:  Undefined offset: 13 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:44:49 Europe/Berlin] PHP Notice:  Undefined offset: 13 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:44:49 Europe/Berlin] PHP Notice:  Undefined offset: 13 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:44:49 Europe/Berlin] PHP Notice:  Undefined offset: 13 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:44:49 Europe/Berlin] PHP Notice:  Undefined offset: 13 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:44:49 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 32
+[07-Jan-2015 11:44:54 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:44:57 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 11:44:57 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 11:44:57 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 11:44:57 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 11:44:57 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 11:44:57 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 11:44:57 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:44:57 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:45:14 Europe/Berlin] PHP Notice:  Undefined offset: 14 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:45:14 Europe/Berlin] PHP Notice:  Undefined offset: 14 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:45:14 Europe/Berlin] PHP Notice:  Undefined offset: 14 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:45:14 Europe/Berlin] PHP Notice:  Undefined offset: 14 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:45:14 Europe/Berlin] PHP Notice:  Undefined offset: 14 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:45:14 Europe/Berlin] PHP Notice:  Undefined offset: 13 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 32
+[07-Jan-2015 11:45:38 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:45:38 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:45:38 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:45:38 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:45:38 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:45:45 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:45:45 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:45:45 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:45:45 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:45:45 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:45:50 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 11:45:50 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 11:45:50 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 11:45:50 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 11:45:50 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 11:45:50 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 11:45:50 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:45:50 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:46:30 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 11:46:30 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 11:46:30 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 11:46:30 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 11:46:30 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 11:46:30 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 11:46:30 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:46:30 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:46:55 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:46:55 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:46:55 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:46:55 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:46:55 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:47:01 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:47:01 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:47:01 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:47:01 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:47:01 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:47:22 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:47:25 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 11:47:25 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 11:47:25 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 11:47:25 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 11:47:25 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 11:47:25 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 11:47:25 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:47:25 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:48:17 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:48:21 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 11:48:21 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 11:48:21 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 11:48:21 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 11:48:21 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 11:48:21 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 11:48:21 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:48:21 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:48:32 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:48:32 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:48:32 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:48:32 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:48:32 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:48:45 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:48:46 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:48:47 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:49:17 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:49:33 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:49:44 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:49:46 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 11:49:46 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 11:49:46 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 11:49:46 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 11:49:46 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 11:49:46 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 11:49:46 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:49:46 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:50:53 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:50:53 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:50:53 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:50:53 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:50:53 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:50:57 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:50:57 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:50:57 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:50:57 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:50:57 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:50:57 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 32
+[07-Jan-2015 11:50:59 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:50:59 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:50:59 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:50:59 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:50:59 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:50:59 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 32
+[07-Jan-2015 11:51:00 Europe/Berlin] PHP Notice:  Undefined offset: 13 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:51:00 Europe/Berlin] PHP Notice:  Undefined offset: 13 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:51:00 Europe/Berlin] PHP Notice:  Undefined offset: 13 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:51:00 Europe/Berlin] PHP Notice:  Undefined offset: 13 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:51:00 Europe/Berlin] PHP Notice:  Undefined offset: 13 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:51:00 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 32
+[07-Jan-2015 11:51:18 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:51:18 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:51:18 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:51:18 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:51:18 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:51:19 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:51:20 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:51:20 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:51:20 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:51:20 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:51:20 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:51:20 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 32
+[07-Jan-2015 11:51:22 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:51:22 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:51:22 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:51:22 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:51:22 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:51:22 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 32
+[07-Jan-2015 11:51:55 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:51:58 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 11:51:58 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 11:51:58 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 11:51:58 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 11:51:58 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 11:51:58 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 11:51:58 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:51:58 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:52:40 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:53:29 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:53:29 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:53:29 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:53:29 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:53:29 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:54:43 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:55:15 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:55:19 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 11:55:19 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 11:55:19 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 11:55:19 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 11:55:19 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 11:55:19 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 11:55:19 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:55:19 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:55:29 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:55:35 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 11:55:35 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 11:55:35 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 11:55:35 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 11:55:35 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 11:55:35 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 11:55:35 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:55:35 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:55:42 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:55:42 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:55:42 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:55:42 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:55:42 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:55:53 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:55:53 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:55:53 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:55:53 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:55:53 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:55:57 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:56:00 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 11:56:00 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 11:56:00 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 11:56:00 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 11:56:00 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 11:56:00 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 11:56:00 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:56:00 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:56:01 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:56:01 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:56:01 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:56:01 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:56:01 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:56:01 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 32
+[07-Jan-2015 11:56:03 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:56:03 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:56:03 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:56:03 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:56:03 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:56:03 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 32
+[07-Jan-2015 11:56:14 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:56:18 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 11:56:18 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 11:56:18 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 11:56:18 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 11:56:18 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 11:56:18 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 11:56:18 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:56:18 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:56:41 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:56:43 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 11:56:43 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 11:56:43 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 11:56:43 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 11:56:43 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 11:56:43 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 11:56:43 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:56:43 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:56:50 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 11:56:52 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:56:52 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:56:52 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:56:52 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:56:52 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:56:53 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 11:56:53 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 11:56:53 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 11:56:53 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 11:56:53 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 11:56:53 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 11:56:53 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:56:53 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:57:23 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:57:23 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:57:23 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:57:23 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:57:23 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:57:32 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:57:32 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:57:32 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:57:32 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:57:32 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:57:32 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 32
+[07-Jan-2015 11:57:32 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:57:32 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:57:32 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:57:32 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:57:32 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:57:33 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 11:57:34 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:57:34 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:57:34 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:57:34 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:57:34 Europe/Berlin] PHP Notice:  Undefined offset: 12 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:57:34 Europe/Berlin] PHP Notice:  Undefined offset: 11 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 32
+[07-Jan-2015 11:57:53 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:57:53 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:57:53 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:57:53 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:57:53 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 11:58:03 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24
+[07-Jan-2015 11:58:03 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 25
+[07-Jan-2015 11:58:03 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 26
+[07-Jan-2015 11:58:03 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 27
+[07-Jan-2015 11:58:03 Europe/Berlin] PHP Notice:  Undefined offset: 10 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 28
+[07-Jan-2015 12:28:00 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[07-Jan-2015 12:28:02 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[07-Jan-2015 12:28:02 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[07-Jan-2015 12:28:02 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[07-Jan-2015 12:28:02 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[07-Jan-2015 12:28:02 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[07-Jan-2015 12:28:02 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[07-Jan-2015 12:28:02 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[07-Jan-2015 12:28:02 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[08-Jan-2015 02:31:30 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[08-Jan-2015 02:31:32 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[08-Jan-2015 02:31:32 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[08-Jan-2015 02:31:32 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[08-Jan-2015 02:31:32 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[08-Jan-2015 02:31:32 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[08-Jan-2015 02:31:32 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[08-Jan-2015 02:31:32 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[08-Jan-2015 02:31:32 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[08-Jan-2015 02:32:20 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[08-Jan-2015 02:33:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 55
+[08-Jan-2015 02:33:23 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 55
+[08-Jan-2015 02:33:34 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[08-Jan-2015 02:35:10 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[08-Jan-2015 02:36:00 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 55
+[08-Jan-2015 02:36:02 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 55
+[08-Jan-2015 02:38:27 Europe/Berlin] PHP Fatal error:  Undefined class constant 'FETCH_ARRAY' in E:\xampp\htdocs\quiz\app\models\test_model.php on line 10
+[08-Jan-2015 02:38:28 Europe/Berlin] PHP Fatal error:  Undefined class constant 'FETCH_ARRAY' in E:\xampp\htdocs\quiz\app\models\test_model.php on line 10
+[08-Jan-2015 02:38:40 Europe/Berlin] PHP Fatal error:  Undefined class constant 'FETCH_ARRAY' in E:\xampp\htdocs\quiz\app\models\test_model.php on line 10
+[08-Jan-2015 02:38:41 Europe/Berlin] PHP Fatal error:  Undefined class constant 'FETCH_ARRAY' in E:\xampp\htdocs\quiz\app\models\test_model.php on line 10
+[08-Jan-2015 02:38:42 Europe/Berlin] PHP Fatal error:  Undefined class constant 'FETCH_ARRAY' in E:\xampp\htdocs\quiz\app\models\test_model.php on line 10
+[08-Jan-2015 02:38:42 Europe/Berlin] PHP Fatal error:  Undefined class constant 'FETCH_ARRAY' in E:\xampp\htdocs\quiz\app\models\test_model.php on line 10
+[08-Jan-2015 02:38:43 Europe/Berlin] PHP Fatal error:  Undefined class constant 'FETCH_ARRAY' in E:\xampp\htdocs\quiz\app\models\test_model.php on line 10
+[08-Jan-2015 02:38:46 Europe/Berlin] PHP Fatal error:  Undefined class constant 'FETCH_ARRAY' in E:\xampp\htdocs\quiz\app\models\test_model.php on line 10
+[08-Jan-2015 02:39:22 Europe/Berlin] PHP Fatal error:  Undefined class constant 'FETCH_ROW' in E:\xampp\htdocs\quiz\app\models\test_model.php on line 10
+[08-Jan-2015 02:39:35 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[08-Jan-2015 02:39:35 Europe/Berlin] PHP Notice:  Undefined variable: qno in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 40
+[08-Jan-2015 02:39:35 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[08-Jan-2015 02:39:35 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[08-Jan-2015 02:39:35 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[08-Jan-2015 02:39:35 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[08-Jan-2015 02:39:35 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[08-Jan-2015 02:39:35 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[08-Jan-2015 02:40:36 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[08-Jan-2015 02:41:53 Europe/Berlin] PHP Notice:  Use of undefined constant FETCH_ASSOC - assumed 'FETCH_ASSOC' in E:\xampp\htdocs\quiz\app\models\test_model.php on line 10
+[08-Jan-2015 02:41:53 Europe/Berlin] PHP Warning:  PDOStatement::fetchAll() expects parameter 1 to be long, string given in E:\xampp\htdocs\quiz\app\models\test_model.php on line 10
+[08-Jan-2015 02:41:53 Europe/Berlin] PHP Warning:  array_column() expects parameter 1 to be array, boolean given in E:\xampp\htdocs\quiz\core\template.class.php on line 29
+[08-Jan-2015 02:41:53 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[08-Jan-2015 02:41:54 Europe/Berlin] PHP Notice:  Use of undefined constant FETCH_ASSOC - assumed 'FETCH_ASSOC' in E:\xampp\htdocs\quiz\app\models\test_model.php on line 10
+[08-Jan-2015 02:41:54 Europe/Berlin] PHP Warning:  PDOStatement::fetchAll() expects parameter 1 to be long, string given in E:\xampp\htdocs\quiz\app\models\test_model.php on line 10
+[08-Jan-2015 02:41:54 Europe/Berlin] PHP Warning:  array_column() expects parameter 1 to be array, boolean given in E:\xampp\htdocs\quiz\core\template.class.php on line 29
+[08-Jan-2015 02:41:54 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[08-Jan-2015 02:42:02 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[08-Jan-2015 02:43:26 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[08-Jan-2015 02:43:26 Europe/Berlin] PHP Notice:  Undefined property: template::$arr_question in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 55
+[08-Jan-2015 02:43:28 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[08-Jan-2015 02:43:28 Europe/Berlin] PHP Notice:  Undefined property: template::$arr_question in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 55
+[08-Jan-2015 02:43:56 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[08-Jan-2015 02:43:56 Europe/Berlin] PHP Notice:  Undefined property: template::$arr_question in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 55
+[08-Jan-2015 02:44:12 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[08-Jan-2015 02:44:12 Europe/Berlin] PHP Notice:  Undefined property: template::$arr_question in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 55
+[08-Jan-2015 02:44:14 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[08-Jan-2015 02:44:14 Europe/Berlin] PHP Notice:  Undefined property: template::$arr_question in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 55
+[08-Jan-2015 02:44:43 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[08-Jan-2015 02:44:44 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[08-Jan-2015 02:44:53 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[08-Jan-2015 02:45:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 55
+[08-Jan-2015 02:45:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 55
+[08-Jan-2015 02:47:00 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[08-Jan-2015 02:47:00 Europe/Berlin] PHP Fatal error:  Cannot use object of type stdClass as array in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 58
+[08-Jan-2015 02:47:02 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[08-Jan-2015 02:47:02 Europe/Berlin] PHP Fatal error:  Cannot use object of type stdClass as array in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 58
+[08-Jan-2015 02:47:18 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[08-Jan-2015 02:47:18 Europe/Berlin] PHP Fatal error:  Cannot use object of type stdClass as array in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 58
+[08-Jan-2015 02:51:42 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[08-Jan-2015 02:51:42 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[08-Jan-2015 02:51:42 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[08-Jan-2015 02:51:42 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[08-Jan-2015 02:51:42 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[08-Jan-2015 02:51:42 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[08-Jan-2015 02:51:42 Europe/Berlin] PHP Fatal error:  Cannot use object of type stdClass as array in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 58
+[08-Jan-2015 02:51:42 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[08-Jan-2015 02:51:42 Europe/Berlin] PHP Fatal error:  Cannot use object of type stdClass as array in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 58
+[08-Jan-2015 02:51:49 Europe/Berlin] PHP Notice:  Undefined offset: -1 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 32
+[08-Jan-2015 02:51:49 Europe/Berlin] PHP Fatal error:  Cannot use object of type stdClass as array in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 58
+[08-Jan-2015 02:52:07 Europe/Berlin] PHP Notice:  Undefined offset: -1 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 32
+[08-Jan-2015 02:52:07 Europe/Berlin] PHP Fatal error:  Cannot use object of type stdClass as array in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 58
+[08-Jan-2015 02:52:10 Europe/Berlin] PHP Notice:  Undefined offset: -1 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 32
+[08-Jan-2015 02:52:10 Europe/Berlin] PHP Fatal error:  Cannot use object of type stdClass as array in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 58
+[08-Jan-2015 02:52:23 Europe/Berlin] PHP Notice:  Undefined offset: -1 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 32
+[08-Jan-2015 02:52:23 Europe/Berlin] PHP Fatal error:  Cannot use object of type stdClass as array in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 58
+[08-Jan-2015 02:52:26 Europe/Berlin] PHP Notice:  Undefined offset: -1 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 32
+[08-Jan-2015 02:52:26 Europe/Berlin] PHP Fatal error:  Cannot use object of type stdClass as array in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 58
+[08-Jan-2015 02:52:28 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[08-Jan-2015 02:52:28 Europe/Berlin] PHP Fatal error:  Cannot use object of type stdClass as array in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 58
+[08-Jan-2015 02:52:30 Europe/Berlin] PHP Notice:  Undefined offset: -1 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 32
+[08-Jan-2015 02:52:30 Europe/Berlin] PHP Fatal error:  Cannot use object of type stdClass as array in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 58
+[08-Jan-2015 02:52:36 Europe/Berlin] PHP Notice:  Undefined offset: -1 in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 32
+[08-Jan-2015 02:52:36 Europe/Berlin] PHP Fatal error:  Cannot use object of type stdClass as array in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 58
+[08-Jan-2015 02:55:19 Europe/Berlin] PHP Notice:  Undefined variable: ques in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 38
+[08-Jan-2015 02:55:19 Europe/Berlin] PHP Notice:  Undefined variable: answer1 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 41
+[08-Jan-2015 02:55:19 Europe/Berlin] PHP Notice:  Undefined variable: answer2 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 42
+[08-Jan-2015 02:55:19 Europe/Berlin] PHP Notice:  Undefined variable: answer3 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 43
+[08-Jan-2015 02:55:19 Europe/Berlin] PHP Notice:  Undefined variable: answer4 in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 44
+[08-Jan-2015 02:55:19 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[08-Jan-2015 02:55:19 Europe/Berlin] PHP Fatal error:  Cannot use object of type stdClass as array in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 58
+[08-Jan-2015 02:55:19 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[08-Jan-2015 02:55:19 Europe/Berlin] PHP Fatal error:  Cannot use object of type stdClass as array in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 58
+[08-Jan-2015 02:55:51 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[08-Jan-2015 02:56:04 Europe/Berlin] PHP Notice:  Undefined variable: ans_disp in E:\xampp\htdocs\quiz\app\views\sentient\test.php on line 48
+[08-Jan-2015 04:21:08 Europe/Berlin] PHP Notice:  A session had already been started - ignoring session_start() in E:\xampp\htdocs\quiz\core\auth.class.php on line 169
+[08-Jan-2015 04:21:10 Europe/Berlin] PHP Fatal error:  Call to undefined function issset() in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 13
+[08-Jan-2015 04:21:10 Europe/Berlin] PHP Fatal error:  Call to undefined function issset() in E:\xampp\htdocs\quiz\app\controllers\test_controller.php on line 24

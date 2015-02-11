@@ -19,7 +19,7 @@ define('PAGINATE_LIMIT', '5');
 
 
 //Define Install Folder
-define('INSTALL_FOLDER', '/quiz2');
+define('INSTALL_FOLDER', '/quiz');
 //define Default theme
 define('THEME', 'sentient');
 //view

@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 08, 2015 at 12:55 PM
+-- Generation Time: Feb 11, 2015 at 10:34 PM
 -- Server version: 5.6.20
 -- PHP Version: 5.5.15
 
@@ -34,24 +34,28 @@ CREATE TABLE IF NOT EXISTS `questions` (
   `answer3` varchar(250) NOT NULL,
   `answer4` varchar(250) NOT NULL,
   `answer` varchar(250) NOT NULL
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=42 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=56 ;
 
 --
 -- Dumping data for table `questions`
 --
 
 INSERT INTO `questions` (`id`, `question_name`, `answer1`, `answer2`, `answer3`, `answer4`, `answer`) VALUES
-(30, 'Select any option for Q1', 'option1', 'option2', 'option3', 'option4', '3'),
-(31, 'Select any option for Q2', 'option1', 'option2', 'option3', 'option4', '4'),
-(33, 'Select any option for Q3', 'option1', 'option2', 'option3', 'option4', '1'),
-(34, 'Select any option for Q4', 'option1', 'option2', 'option3', 'option4', '4'),
-(35, 'Select any option for Q5', 'option1', 'option2', 'option3', 'option4', '3'),
-(36, 'Select any option for Q6', 'option1', 'option2', 'option3', 'option4', '3'),
-(37, 'Select any option for Q7', 'option1', 'option2', 'option3', 'option4', '2'),
-(38, 'Select any option for Q8', 'option1', 'option2', 'option3', 'option4', '1'),
-(39, 'Select any option for Q9', 'option1', 'option2', 'option3', 'option4', '4'),
-(40, 'Select any option for Q10', 'option1', 'option2', 'option3', 'option4', '4'),
-(41, 'asdfghjk', 'asdfghjk', 'zxcvbnm', 'wertyui', 'poiuyt', '4');
+(41, 'Grand Central Terminal, Park Avenue, New York is the world''sGrand Central Terminal, Park Avenue, New York is the world''sGrand Central Terminal, Park Avenue, New York is the world''sGrand Central Terminal, Park Avenue, New York is the world''s', 'largest railway station', 'highest railway station', 'longest railway station', 'None of the above', '1'),
+(42, 'Entomology is the science that studies', 'Behavior of human beings', 'Insects', 'The origin and history of technical and scientific terms', 'The formation of rocks', '2'),
+(43, 'Eritrea, which became the 182nd member of the UN in 1993, is in the continent of', 'Asia', 'Africa', 'Europe', 'Australia', '2'),
+(44, 'Garampani sanctuary is located at', 'Junagarh, Gujarat', 'Diphu, Assam', 'Kohima, Nagaland', 'Gangtok, Sikkim', '2'),
+(45, 'For which of the following disciplines is Nobel Prize awarded?', 'Physics and Chemistry', 'Physiology or Medicine', 'Literature, Peace and Economics', 'All of the above', '4'),
+(46, 'Hitler party which came into power in 1933 is known as', 'Labour Party', 'Nazi Party', 'Ku-Klux-Klan', 'Democratic Party', '2'),
+(47, 'Kiran Bedi received Magsaysay Award for government service in', '1992', '1993', '1994', '1995', '3'),
+(48, 'Logarithm tables were invented by', 'John Napier', 'John Doe', 'John Harrison', 'John Douglas', '1'),
+(49, 'With which sport is the Jules Rimet trophy associated?', 'Basketball', 'Football', 'Hockey', 'Golf', '2'),
+(50, 'Joule is the unit of', 'temperature', 'pressure', 'energy', 'heat', '3'),
+(51, 'Kemal Ataturk was', 'the first President of Independent Kenya', 'the founder of modern Turkey', 'revolutionary leader of Soviet Union', 'None of the above', '2'),
+(52, 'Milkha Singh Stood ____ in 1960 Olympics, in Athletics.', 'fourth in 400m final', 'second in 400m final', 'eighth in 50km walk', 'seventh in 800m final', '1'),
+(53, 'The main objectives of the UN areThe main objectives of the UN areThe main objectives of the UN areThe main objectives of the UN areThe main objectives of the UN areThe main objectives of the UN areThe main objectives of the UN areThe main objectives of the UN are', 'to maintain peace and security in the worldto maintain peace and security in the worldto maintain peace and security in the worldto maintain peace and security in the worldto maintain peace and security in the worldto maintain peace and security in t', 'to work together to remove poverty, disease and illiteracy and encourage respect for each other''s rights of basic freedom.to work together to remove poverty, disease and illiteracy and encourage respect for each other''s rights of basic freedom.to wor', 'to develop friendly relations among nationsto develop friendly relations among nationsto develop friendly relations among nations', 'All of the aboveAll of the aboveAll of the aboveAll of the aboveAll of the aboveAll of the aboveAll of the aboveAll of the aboveAll of the aboveAll of the aboveAll of the aboveAll of the aboveAll of the aboveAll of the above', '4'),
+(54, 'dkjsbnjs', 'kjn', 'kjn', 'kjn', 'kjn', '1'),
+(55, 'bkjb', 'kjb', 'kjbk', 'kjbkjb', 'kjbkj', '4');
 
 -- --------------------------------------------------------
 
@@ -60,8 +64,8 @@ INSERT INTO `questions` (`id`, `question_name`, `answer1`, `answer2`, `answer3`,
 --
 
 CREATE TABLE IF NOT EXISTS `result` (
-  `qid` int(11) NOT NULL,
-  `uid` int(11) NOT NULL,
+  `q_id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL,
   `answer` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -69,22 +73,31 @@ CREATE TABLE IF NOT EXISTS `result` (
 -- Dumping data for table `result`
 --
 
-INSERT INTO `result` (`qid`, `uid`, `answer`) VALUES
-(37, 549, 2),
-(40, 549, 1),
-(36, 549, 4),
-(33, 549, 2),
-(39, 549, 1),
-(30, 549, 4),
-(41, 549, 3),
-(38, 549, 4),
-(31, 549, 1),
-(34, 549, 2),
-(35, 549, 1),
-(41, 447, 2),
-(38, 447, 2),
-(30, 448, 2),
-(39, 448, 1);
+INSERT INTO `result` (`q_id`, `user_id`, `answer`) VALUES
+(54, 1000, 1),
+(48, 1000, 2),
+(46, 1000, 1),
+(49, 1000, 4),
+(47, 1000, 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `score`
+--
+
+CREATE TABLE IF NOT EXISTS `score` (
+  `user_id` int(11) NOT NULL,
+  `name` text NOT NULL,
+  `score` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `score`
+--
+
+INSERT INTO `score` (`user_id`, `name`, `score`) VALUES
+(1000, 'asn', 1);
 
 -- --------------------------------------------------------
 
@@ -93,8 +106,8 @@ INSERT INTO `result` (`qid`, `uid`, `answer`) VALUES
 --
 
 CREATE TABLE IF NOT EXISTS `users` (
-`id` int(11) NOT NULL,
-  `username` varchar(128) NOT NULL,
+`user_id` int(11) NOT NULL,
+  `email` varchar(128) NOT NULL,
   `password` char(128) NOT NULL,
   `level` int(11) DEFAULT '0'
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1001 ;
@@ -103,7 +116,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `username`, `password`, `level`) VALUES
+INSERT INTO `users` (`user_id`, `email`, `password`, `level`) VALUES
 (442, 'swapgupta007@gmail.com', '$2y$10$F/wb89ZdhqwJejviPHUuZu2nRieV8PUjwlzOUUNbZcIRJGQ8xSKLC', 0),
 (443, 'murli.dhar196@gmail.com', '$2y$10$IduMmFl/GuZmCT6mpjylDuv7DhL7Q0h7OwmzrybOD.3X96sX4keNG', 0),
 (444, 'yadav1996santosh@gmail.com', '$2y$10$ptM8XUFBylY4iRbF5IwO3eBoRiqFYA9VfCCadHKoHNkHPkyYli8y6', 0),
@@ -249,7 +262,7 @@ INSERT INTO `users` (`id`, `username`, `password`, `level`) VALUES
 (584, 'lishathomas01@gmail.com', '$2y$10$MMaqLWtXwvSkGMhEA0HtMOIbcpRcd.YlcOJECqfrpffF84Gob5h2y', 0),
 (585, 'bhamarevivek9@gmail.com', '$2y$10$/uz0.uDiYaQapOlhlWEeUut3Q/eyDiJByZ9Xq4jX58DxXXDvhzGGy', 0),
 (586, 'chandrakanttiwariiit@gmail.com', '$2y$10$eOuRuDDPn7dsAATthNBh7uWk8trhMOUg9z08s0MZYwb12o45lP4Ty', 0),
-(1000, 'admin', '$2y$10$F/wb89ZdhqwJejviPHUuZu2nRieV8PUjwlzOUUNbZcIRJGQ8xSKLC', 1);
+(1000, 'admin', '$2y$10$Ea2OfYAH5QC/2SFdQBveXurpt1GU0gfKhJHUEJASCRlsMyyI/N1Na', 1);
 
 --
 -- Indexes for dumped tables
@@ -265,7 +278,7 @@ ALTER TABLE `questions`
 -- Indexes for table `users`
 --
 ALTER TABLE `users`
- ADD PRIMARY KEY (`id`);
+ ADD PRIMARY KEY (`user_id`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -275,12 +288,12 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `questions`
 --
 ALTER TABLE `questions`
-MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=42;
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=56;
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=1001;
+MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=1001;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

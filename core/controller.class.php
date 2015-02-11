@@ -3,42 +3,46 @@
  * Todo:
  * Shift this file into app/class
  */
-class controller {
-     
-    protected $_controller;
-    protected $_model;
-    protected $_action;
-    protected $_extended_action;
-    protected $_template;
-    //protected $_lang;
-    //protected $auth1;
+class Controller
+{
+
+    protected $controller;
+    protected $model;
+    protected $action;
+    protected $template;
     public $doNotRenderHeader;
-	public $render;
-    
-    function __construct($controller,$action,$extended_action,$model,$lang,$loginstatus)
+    public $render;
+
+    public function __construct($controller, $action, $extended_action, $model)
     {
-        $this->_action=$action;
-        $this->_controller=$controller;
-        $this->_extended_action=$extended_action;
-        $this->_model = $model;
+        $this->action            = $action;
+        $this->controller        = $controller;
+        $this->model             = $model;
         $this->doNotRenderHeader = 0;
-		$this->render = 1;
-        $this->_template = new template($controller,$action,$lang,$loginstatus);
+        $this->render            = 1;
+        $this->template          = new Template($controller, $action);
         
+        //convert extended action to get
+        if(count($extended_action)>0){
+            $getArray = explode("&", $extended_action[0]);
+            if($getArray[0]!=''){
+                for($i=0;$i<count($getArray);$i++){
+                    list($k, $v) = explode('=', $getArray[$i]);
+                    $_GET[$k]    = $v;
+                    }
+            }
+        }
     }
-    
-    function set($key,$value)
+
+    public function set($key, $value)
     {
-        $this->_template->set($key,$value);
-            
+        $this->template->set($key, $value);
     }
-    
-    function __destruct()
+
+    public function __destruct()
     {
         if ($this->render) {
-			$this->_template->render($this->doNotRenderHeader);
-		}
+            $this->template->render($this->doNotRenderHeader);
+        }
     }
-        
-         
 }

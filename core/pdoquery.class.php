@@ -1,31 +1,27 @@
 <?php
 
 
-class pdoquery{
-        
-protected $_dbconnect;
-protected $_result;
-  
-    function connect($dbname,$host,$dbusername,$dbpassword)
+class PDOquery
+{
+
+public $dbconnect;
+protected $result;
+
+    public function connect($dbname, $host, $dbusername, $dbpassword)
     {
-        try{
-            $this->_dbconnect= new PDO("mysql:host=$host;dbname=$dbname",$dbusername,$dbpassword);
-            $this->_dbconnect->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
-            
-        }catch(PDOException $e)
-        {
+        try {
+            $this->dbconnect = new PDO("mysql:host=$host;dbname=$dbname", $dbusername, $dbpassword);
+            $this->dbconnect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        } catch (PDOException $e) {
             echo $e->getMessage();
             //handle the error
         }
     }
-    
-    
-    
-    function close()
+
+    public function close()
     {
-        $this->_dbconnect=NULL;
+        $this->dbconnect = null;
     }
-    
-    
+
     //ADD CRUD
 }

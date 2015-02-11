@@ -1,0 +1,87 @@
+<IfModule mod_alias.c>
+Alias /images/ "/User/Public_html/Image/"
+<Directory "/User/Public_html/Image">
+Options Indexes MultiViews
+AllowOverride None
+Order allow,deny
+Allow from all
+</Directory>
+</IfModule>
+theme/css/test.css  view/test.html
+
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    #Define the part of the URL that will not change nor be used for rewriting.
+    #In fact, this part will be removed before processing, and prepended 
+    #after processing. This is a good way to use subfolder-independent 
+    #rewrite rules. 
+    #For example, if your CodeIgniter index.php is placed in a virtual host 
+    #directory, like /tests/, set RewriteBase to /tests/.
+    RewriteBase /public_html/
+
+    #During the first parse, a variable REDIRECT_STATUS is set (= 200).
+    #With these extra lines we can trap the second parse with a change nothing [L] instruction.
+    RewriteCond %{ENV:REDIRECT_STATUS} 200
+    RewriteRule .* - [L]
+    
+    RewriteCond %{HTTP_HOST} ^myDomain.com$ [OR]
+    RewriteCond %{HTTP_HOST} ^www.myDomain.com$
+    RewriteRule ^/?$ /public_html/ [R,L]
+    
+    #Set Condition to meet for RewriteRule activation.
+    #Removes access to the system folder by users.
+    #Additionally this will allow you to create a System.php controller,
+    #previously this would not have been possible.
+    #'system' can be replaced if you have renamed your system folder.
+#    RewriteCond %{REQUEST_URI} ^system.*
+#    RewriteRule ^(.*)$ /index.php/$1 [L]
+
+    #If the request is for a file that exists already on the server, don't rewrite. 
+    #an exclamation mark ('!') is used to negate the meaning.
+    #Test if the requested filename does not exist.
+    RewriteCond %{REQUEST_FILENAME} !-f
+
+    #Test if the requested directory does not exist.
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    #Do not rewrite access to images, css folders, and
+    #the robots.txt file
+    RewriteCond $1 !^(index\.php|images|robots\.txt|css\favicon\.ico)
+
+#   RewriteCond %{REQUEST_URI} !^(.*)\.css$
+#   RewriteCond %{REQUEST_URI} !^(.*)\.jpg$
+#   RewriteCond %{REQUEST_URI} !^(.*)\.gif$
+
+    #If RewriteCond conditions are met, this rule will be applied.
+    #It inserts index.php before the requested URI.
+    #The $1 represents the part of string enclosed by parentheses in left expression.
+    #The [L] means that this rule is the last one if rule is applied (thus stopping rewriting).
+#    RewriteRule ^(.*)$ index.php/$1 [L]
+    RewriteRule ^(.*)$ /public_html/index.php?/$1 [L]
+</IfModule>
+
+<IfModule !mod_rewrite.c>
+    # If we don't have mod_rewrite installed, all 404's
+    # can be sent to index.php, and everything works as normal.
+    # Submitted by: ElliotHaughin
+
+    ErrorDocument 404 /public_html/index.php
+</IfModule>
+
+# disable directory browsing
+Options All -Indexes
+
+<FilesMatch "\.(gif|jpg|jpeg|png|swf|css|js|html?|xml|txt)$">
+    # Remove Etags inode (only use the modified time and size of the file)
+    FileETag MTime Size
+</FilesMatch>
+
+<IfModule mod_expires.c>
+    # must have mod_expires enabled in httpd.conf
+    <FilesMatch "\.(gif|jpg|jpeg|png|swf|html?|txt)$">
+        ExpiresActive On
+        ExpiresDefault "access plus 10 years"
+    </FilesMatch>
+</IfModule>

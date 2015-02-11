@@ -10,18 +10,18 @@
     <?php echo $html->includeCss("bootstrap.min"); ?>
     <?php echo $html->includeCss("jumbotron-narrow"); ?>
     <script src="http://localhost/quiz/public/js/jquery-2.1.3.js"></script>
-    
+
 </head>
 <body class="container">
     <div class="jumbotron">
         <button class="btn btn-primary" type="button">
-            Total Questions: <span class="badge"><?php echo $noofq; ?></span>
+            Total Questions: <span class="badge">${{noofq}}</span>
         </button>
         <br><br>
 
         <div class="well well-sm">Add a new question</div>
         <br>
-        <form class="form-inline" action="<?php echo ''.INSTALL_FOLDER.'admin/add';?>" method="post">
+        <form class="form-inline" action="<?php echo ''.INSTALL_FOLDER.DS.'admin/add';?>" method="post">
             <div class="input-group pad-bottom">
                 <span class="input-group-addon" id="basic-addon2">Question</span>
                 <input type="text" name="question" class="form-control" placeholder="Enter a new question" aria-describedby="basic-addon2">
@@ -53,9 +53,9 @@
             <input class="btn btn-info" type="submit" value="Add Question">
         </form>
 
-        <form class="form-inline" action="<?php echo ''.INSTALL_FOLDER.'admin/result';?>" method="post">
+        <form class="form-inline" action="<?php echo ''.INSTALL_FOLDER.DS.'admin/result';?>" method="post">
             <input class="btn btn-info" type="submit" value="View Results">
         </form>
-    </div>        
+    </div>
 </body>
 </html>

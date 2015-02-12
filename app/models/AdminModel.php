@@ -11,11 +11,11 @@ class AdminModel extends Model
     return $number_of_rows;
   }
 
-function add($question,$answere1,$answere2,$answere3,$answere4,$answere){
+function add($question,$code,$answere1,$answere2,$answere3,$answere4,$answere){
 
 
-       $stmt = $this->dbconnect->prepare('INSERT INTO questions (question_name,answer1,answer2,answer3,answer4,answer) VALUES (:question_name,:answer1,:answer2,:answer3,:answer4,:answer)');
-       $stmt->execute(array(':question_name'=>$question,':answer1'=>$answere1,
+       $stmt = $this->dbconnect->prepare('INSERT INTO questions (question_name,code,answer1,answer2,answer3,answer4,answer) VALUES (:question_name,:code,:answer1,:answer2,:answer3,:answer4,:answer)');
+       $stmt->execute(array(':question_name'=>$question,':code'=>$code,':answer1'=>$answere1,
                             ':answer2'=>$answere2,':answer3'=>$answere3,
                             ':answer4'=>$answere4,':answer'=>$answere));
 
@@ -91,5 +91,17 @@ function generate_result2($qid)
         }
         echo "</table>";
     }
+
+
+
+    public function register($username,$password){
+
+
+       $password_hashed = password_hash($password, PASSWORD_BCRYPT);
+       $stmt = $this->dbconnect->prepare('INSERT INTO users (email,password) VALUES (:username,:password)');
+       $stmt->execute(array(':username'=>$username,':password'=>$password_hashed));
+
+
+   }
 
 }

@@ -59,6 +59,7 @@ class TestController extends Controller{
              $this->set("answer3", $this->_question[0]['answer3']);
              $this->set("answer4", $this->_question[0]['answer4']);
              $this->set("qid", $this->_question[0]['id']);
+             $this->set("code", $this->_question[0]['code']);
 
          }else
         { header('Location: result');}

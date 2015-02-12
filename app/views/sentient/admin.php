@@ -14,6 +14,7 @@
 </head>
 <body class="container">
     <div class="jumbotron">
+        <a href="<?php echo ''.INSTALL_FOLDER.DS.'admin/register';?>">Register Users</a>
         <button class="btn btn-primary" type="button">
             Total Questions: <span class="badge">${{noofq}}</span>
         </button>
@@ -24,7 +25,12 @@
         <form class="form-inline" action="<?php echo ''.INSTALL_FOLDER.DS.'admin/add';?>" method="post">
             <div class="input-group pad-bottom">
                 <span class="input-group-addon" id="basic-addon2">Question</span>
-                <input type="text" name="question" class="form-control" placeholder="Enter a new question" aria-describedby="basic-addon2">
+                <textarea style="width: 488px; height: 103px;" type="text" name="question" class="form-control" placeholder="Enter a new question" aria-describedby="basic-addon2"></textarea>
+            </div>
+            <br><br>
+            <div class="input-group pad-bottom">
+                <span class="input-group-addon" id="basic-addon2">Code</span>
+                <textarea style="width: 488px; height: 103px;" type="text" name="code" class="form-control" placeholder="Enter code for the above question" aria-describedby="basic-addon2"></textarea>
             </div>
             <br><br>
             <div class="input-group pad-bottom">
@@ -52,7 +58,7 @@
             <br><br>
             <input class="btn btn-info" type="submit" value="Add Question">
         </form>
-
+        <br><br>
         <form class="form-inline" action="<?php echo ''.INSTALL_FOLDER.DS.'admin/result';?>" method="post">
             <input class="btn btn-info" type="submit" value="View Results">
         </form>

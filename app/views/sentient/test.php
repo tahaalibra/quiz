@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>The Quiz App</title>
     <?php echo $html->includeCss("bootstrap.min"); ?>
+    <?php echo $html->includeCss("prettify"); ?>
+    <?php echo $html->includeJs("run_prettify"); ?>
     <?php echo $html->includeCss("jumbotron-narrow"); ?>
     <script src="http://localhost/quiz/public/js/jquery-2.1.3.js"></script>
     <script>
@@ -31,7 +33,7 @@ cook=getCookie("my_cookie");
 
 if(cook==""){
    //cookie not found, so set seconds=60
-   var seconds = 3600;
+   var seconds = 3600; //set time in seconds
 }else{
      seconds = cook;
      console.log(cook);
@@ -58,6 +60,12 @@ function secondPassed() {
 
 var countdownTimer = setInterval(secondPassed, 1000);
     </script>
+    <style>
+    li.L0, li.L1, li.L2, li.L3,
+    li.L5, li.L6, li.L7, li.L8
+    { list-style-type: decimal !important }
+    </style>
+
 </head>
 
 <body class="container">
@@ -74,6 +82,9 @@ var countdownTimer = setInterval(secondPassed, 1000);
                 <span class="input-group-addon" id="basic-addon2">Question</span>
                 <textarea class="form-control" rows="1" id="comment" style="margin: 0px; height: 100px; width: 520px; text-align: center;" disabled>${{question}}</textarea>
             </div>
+<pre class='prettyprint linenums' style='text-align:left;'><code
+>${{code}}
+</code></pre>
             <br><br>
             <div class="input-group answer">
               <span class="input-group-addon">

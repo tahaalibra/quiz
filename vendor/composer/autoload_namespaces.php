@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'HelloWorld' => array($vendorDir . '/libracious/hello-world/src'),
+    'Psr\\Log\\' => array($vendorDir . '/psr/log'),
 );

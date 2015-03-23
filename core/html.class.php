@@ -21,14 +21,31 @@ class HTML
         return $data;
     }
 
-    public function includeJs($fileName)
-    {    //echo file_get_contents(ROOT.DS.'app'.DS.'views'.DS.THEME.DS.'js'.DS.$fileName.'.js');
-         echo '<script src="'.BASE_PATH.'js/'.$fileName.'.js"></script>';
-    }
-
-    public function includeCss($fileName)
-    {    //echo file_get_contents(ROOT.DS.'app'.DS.'views'.DS.THEME.DS.'css'.DS.$fileName.'.css');
-         echo '<link rel="stylesheet" type="text/css" href="'.BASE_PATH.'css/'.$fileName.'.css">';
+    public function includefile($fileName)
+    {
+        if (strpos($fileName, '.js') !== false) {
+            $ext = '/^.+\.js$/i';
+            $type = 'js';
+        } elseif (strpos($fileName, '.css') !== false) {
+            $ext = '/^.+\.css$/i';
+            $type = 'css';
+        }
+        
+        $objects = new RegexIterator(new RecursiveIteratorIterator(new RecursiveDirectoryIterator('../public/')), $ext, RecursiveRegexIterator::GET_MATCH);
+        foreach($objects as $name => $object){
+            if (strpos($name, $fileName) !== false) {
+                if (file_exists($name)) {
+                    $name = str_ireplace('../public/', BASE_PATH, $name);
+                    if ($type == 'js') {
+                        echo '<script src="'.$name.'"></script>'."\n";
+                        break;
+                    } elseif ($type == 'css') {
+                        echo '<link rel="stylesheet" type="text/css" href="'.$name.'">'."\n";
+                        break;
+                    }
+                }
+            }
+        }
     }
 
     public function getDataURI($image, $mime = '')

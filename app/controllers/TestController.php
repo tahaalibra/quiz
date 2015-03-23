@@ -7,7 +7,7 @@ class TestController extends Controller{
 
      function test(){
         $this->doNotRenderHeader=1;
-        Auth::checkLogin(true);
+        //Auth::checkLogin(true);
         $model = new $this->model;
 
          if(isset($_COOKIE["my_cookie"]))

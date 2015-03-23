@@ -7,7 +7,7 @@ class AdminController extends Controller{
     function admincheck()
     {
         if($_SESSION['level']!='1'){
-        header("Location: home");
+        header("Location: ".INSTALL_FOLDER."/home");
         }
     }
 
@@ -34,13 +34,17 @@ class AdminController extends Controller{
             $image=NULL;
         }
   
+        if(empty($_POST['code'])){
+            $_POST['code']=NULL;
+        }
+        
         $model = new $this->model;
         $this->set("noofq",$model->displayall());
         $model->add($_POST['question'],$_POST['code'],
                     $_POST['answere1'],$_POST['answere2'],
                     $_POST['answere3'],$_POST['answere4'],
                     $_POST['answere'],$image);
-        //header("Location: admin");
+        header("Location:".INSTALL_FOLDER."/admin");
     }
 
 

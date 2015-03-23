@@ -13,7 +13,7 @@ class SigninController extends Controller
 
               if(Auth::login($_POST['username'],$_POST['password'])){
 
-                      header("Location:".INSTALL_FOLDER.DS."home");
+                      header("Location:".INSTALL_FOLDER."/home");
               }else{
                       echo "invalid password";
               }

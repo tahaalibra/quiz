@@ -1,69 +1,87 @@
-<?php
+<html lang="en" ng-app="AdminApp">
 
-
-?>
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <?php echo $html->includeFile("bootstrap.min.css"); ?>
-    <?php echo $html->includeFile("jumbotron-narrow.css"); ?>
-    <?php echo $html->includeFile("jquery-2.1.3.js"); ?>
-
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoDraft:300,400,500,700,400italic">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+    <?php echo $html->includeCss("style"); ?>
 </head>
-<body class="container">
-    <div class="jumbotron">
-        <a href="<?php echo ''.INSTALL_FOLDER.DS.'admin/register';?>">Register Users</a>
-        <button class="btn btn-primary" type="button">
-            Total Questions: <span class="badge">${{noofq}}</span>
-        </button>
-        <br><br>
 
-        <div class="well well-sm">Add a new question</div>
-        <br>
-        <form class="form-inline" action="<?php echo ''.INSTALL_FOLDER.DS.'admin/add';?>" method="post" enctype="multipart/form-data">
-            <div class="input-group pad-bottom">
-                <span class="input-group-addon" id="basic-addon2">Question</span>
-                <textarea style="width: 488px; height: 103px;" type="text" name="question" class="form-control" placeholder="Enter a new question" aria-describedby="basic-addon2"></textarea>
+<body layout="column" ng-controller="AppCtrl">
+    <md-toolbar>
+        <div class="md-toolbar-tools">
+            <div flex></div>
+            <div flex layout="row" layout-align="center center">
+                <h2>Admin</h2>
             </div>
-            <br><br>
-            <input type="file" name="image" id="image" accept="image/*">
-            <br><br>
-            <div class="input-group pad-bottom">
-                <span class="input-group-addon" id="basic-addon2">Code</span>
-                <textarea style="width: 488px; height: 103px;" type="text" name="code" class="form-control" placeholder="Enter code for the above question" aria-describedby="basic-addon2"></textarea>
-            </div>
-            <br><br>
-            <div class="input-group pad-bottom">
-                <span class="input-group-addon" id="basic-addon2">Option 1</span>
-                <input type="text" name="answere1" class="form-control" placeholder="Option 1" aria-describedby="basic-addon2">
-            </div>
-            <div class="input-group pad-bottom">
-                <span class="input-group-addon" id="basic-addon2">Option 2</span>
-                <input type="text" name="answere2" class="form-control" placeholder="Option 2" aria-describedby="basic-addon2">
-            </div>
-            <br>
-            <div class="input-group pad-bottom">
-                <span class="input-group-addon" id="basic-addon2">Option 3</span>
-                <input type="text" name="answere3" class="form-control" placeholder="Option 3" aria-describedby="basic-addon2">
-            </div>
-            <div class="input-group pad-bottom">
-                <span class="input-group-addon" id="basic-addon2">Option 4</span>
-                <input type="text" name="answere4" class="form-control" placeholder="Option 4" aria-describedby="basic-addon2">
-            </div>
-            <br><br><br>
-            <div class="input-group">
-                <span class="input-group-addon" id="basic-addon2">Correct Option</span>
-                <input type="text" name="answere" class="form-control" placeholder="One of the above options" aria-describedby="basic-addon2">
-            </div>
-            <br><br>
-            <input class="btn btn-info" type="submit" value="Add Question">
-        </form>
-        <br><br>
-        <form class="form-inline" action="<?php echo ''.INSTALL_FOLDER.DS.'admin/result';?>" method="post">
-            <input class="btn btn-info" type="submit" value="View Results">
-        </form>
-    </div>
+            <div flex></div>
+        </div>
+    </md-toolbar>
+    <br>
+    <md-content>
+        <md-card>
+            <md-card-content>
+                <h3>Total number of questions <span>${{noofq}}</span></h3>
+                <md-whiteframe class="md-whiteframe-z1" layout-padding>
+                    <span>Add a new question</span>
+                </md-whiteframe>
+                <br>
+                <br>
+                <form action="<?php echo ''.INSTALL_FOLDER.'/admin/add';?>" method="post" enctype="multipart/form-data">
+                    <md-input-container flex>
+                        <label>Question</label>
+                        <textarea name="question" columns="3" placeholder="Enter a new question" required></textarea>
+                    </md-input-container>
+
+                    <md-input-container flex>
+                        <input type="file" name="image" id="image" accept="image/*">
+                    </md-input-container>
+                    <!--<md-button class="md-fab md-primary md-hue-2" aria-label="Profile">
+                        <ng-md-icon icon="photo" style="fill: #fff" size="42"></ng-md-icon>
+                    </md-button>-->
+                                 
+                    <div layout layout-sm="column">
+                        <md-input-container flex>
+                            <label>Option 1</label>
+                            <input name="answere1" placeholder="Option #1 for this question">
+                        </md-input-container>
+                        <md-input-container flex>
+                            <label>Option 2</label>
+                            <input name="answere2" placeholder="Option #2 for this question">
+                        </md-input-container>
+                    </div>
+                    <div layout layout-sm="column">
+                        <md-input-container flex>
+                            <label>Option 3</label>
+                            <input name="answere3" placeholder="Option #3 for this question">
+                        </md-input-container>
+                        <md-input-container flex>
+                            <label>Option 4</label>
+                            <input name="answere4" placeholder="Option #4 for this question">
+                        </md-input-container>
+                    </div>
+                    <div layout layout-sm="column">
+                        <md-input-container flex>
+                            <label>Correct Option</label>
+                            <input name="answere" placeholder="Ex 1 or 2...">
+                        </md-input-container>
+                    </div>
+                    <br>
+                    <section layout="row" layout-sm="column" layout-align="center center">
+                        <md-button class="md-raised md-primary" style="min-width: 20em; height: 3em;">Add Question</md-button>
+                    </section>
+                    <br>
+                </form>
+            </md-card-content>
+        </md-card>
+    </md-content>
+    <!-- Angular Material Dependencies -->
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.min.js"></script>
+    <script src="bower_components/angular-material/angular-material.min.js"></script>
+    <script src="//cdn.jsdelivr.net/angular-material-icons/0.4.0/angular-material-icons.min.js"></script>
+    <?php echo $html->includeJs("script"); ?>
 </body>
+
 </html>

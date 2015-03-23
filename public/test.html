@@ -1,7 +1,7 @@
 <html lang="en" ng-app="TestApp">
 
 <head>
-    <link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css">
+    <?php echo $html->includeCss("angular-material"); ?>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoDraft:300,400,500,700,400italic">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
     <link rel="stylesheet" href="style.css">
@@ -22,30 +22,31 @@
             <div flex="5"></div>
             <div flex>
                 <md-card>
-                    <img src="q.jpg" class="md-card-image">
+                    <img src="photo.php?id=${{image}}" class="md-card-image">
                     <md-card-content>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ut voluptatibus, deserunt ad non nam consequuntur eos dolor est, porro ratione assumenda quidem recusandae, voluptates voluptas at nobis sequi repudiandae.</p>
+                        <p>${{question}}</p>
                     </md-card-content>
                 </md-card>
             </div>
             <div flex="5"></div>
         </div>
         <br>
+        <form action="" method="post">
         <md-radio-group>
             <div layout="row" layout-sm="column">
                 <div flex="5"></div>
                 <div flex>
-                    <md-radio-button value="1">
+                    <md-radio-button name="answer" value="1" id="answer1" required>
                         <md-whiteframe class="md-whiteframe-z1" layout layout-align="center center" layout-padding>
-                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quam necessitatibus obcaecati deleniti. Quasi veniam doloremque tempora eligendi excepturi quis.</span>
+                            <span>${{answer1}}</span>
                         </md-whiteframe>
                     </md-radio-button>
                 </div>
                 <div flex="5"></div>
                 <div flex>
-                    <md-radio-button value="2">
+                    <md-radio-button name="answer" value="2" id="answer2" required>
                         <md-whiteframe class="md-whiteframe-z1" layout layout-align="center center" layout-padding>
-                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quam necessitatibus obcaecati deleniti. Quasi veniam doloremque tempora eligendi excepturi quis.</span>
+                            <span>${{answer2}}</span>
                         </md-whiteframe>
                     </md-radio-button>
                 </div>
@@ -54,17 +55,17 @@
             <div layout="row" layout-sm="column">
                 <div flex="5"></div>
                 <div flex>
-                    <md-radio-button value="3">
+                    <md-radio-button name="answer" value="3" id="answer3" required>
                         <md-whiteframe class="md-whiteframe-z1" layout layout-align="center center" layout-padding>
-                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quam necessitatibus obcaecati deleniti. Quasi veniam doloremque tempora eligendi excepturi quis.</span>
+                            <span>${{answer3}}</span>
                         </md-whiteframe>
                     </md-radio-button>
                 </div>
                 <div flex="5"></div>
                 <div flex>
-                    <md-radio-button value="4">
+                    <md-radio-button name="answer" value="4" id="answer4" required>
                         <md-whiteframe class="md-whiteframe-z1" layout layout-align="center center" layout-padding>
-                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quam necessitatibus obcaecati deleniti. Quasi veniam doloremque tempora eligendi excepturi quis.</span>
+                            <span>${{answer4}}</span>
                         </md-whiteframe>
                     </md-radio-button>
                 </div>
@@ -73,18 +74,22 @@
         </md-radio-group>
         <br>
         <section layout="row" layout-sm="column" layout-align="center center">
+            <input type="text" name="qid" value="${{qid}}" id="qid" style="display:none;">
             <md-button class="md-raised md-warn" style="min-width: 10em;">Next</md-button>
         </section>
+        </form>
+
         <br>
     </md-content>
 
     <!-- Angular Material Dependencies -->
-    <script src="bower_components/angular/angular.min.js"></script>
-    <script src="bower_components/angular-animate/angular-animate.min.js"></script>
-    <script src="bower_components/angular-aria/angular-aria.min.js"></script>
-    <script src="bower_components/angular-material/angular-material.min.js"></script>
-    <!-- My Script -->
-    <script src="script.js"></script>
+    <?php echo $html->includeJs("angular.min"); ?>
+    <?php echo $html->includeJs("angular-animate.min"); ?>
+    <?php echo $html->includeJs("angular-aria.min"); ?>
+    <?php echo $html->includeJs("angular-material.min"); ?>
+    <script src="//cdn.jsdelivr.net/angular-material-icons/0.4.0/angular-material-icons.min.js"></script>
+        <!-- My Script -->
+    <?php echo $html->includeJs("script"); ?>
 </body>
 
 </html>

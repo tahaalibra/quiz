@@ -7,7 +7,11 @@ class TestController extends Controller{
 
      function test(){
         $this->doNotRenderHeader=1;
-        //Auth::checkLogin(true);
+        Auth::checkLogin(true);
+         
+        //echo $_POST["answer"];
+         
+         
         $model = new $this->model;
 
          if(isset($_COOKIE["my_cookie"]))
@@ -70,8 +74,7 @@ class TestController extends Controller{
                  */
              }
              if($this->_question['img']){
-                $this->set("image", $this->_question['img']);
-                 echo "image";
+                $this->set("image", '<img src="photo.php?id='.$this->_question['img'].'"class="md-card-image">');
              }
             
 

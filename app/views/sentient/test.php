@@ -1,156 +1,98 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="TestApp">
+
 <head>
-    <meta charset="UTF-8">
-    <title>The Quiz App</title>
-    <?php echo $html->includeCss("bootstrap.min"); ?>
-    <?php echo $html->includeCss("prettify"); ?>
-    <?php echo $html->includeCss("jumbotron-narrow"); ?>
-    <?php echo $html->includeJs("run_prettify"); ?>
-    <?php echo $html->includeJs("jquery-2.1.3"); ?>
-    <script>
-   function setCookie(cname,cvalue,exdays)
-{
-var d = new Date();
-d.setTime(d.getTime()+(exdays*24*60*60*1000));
-var expires = "expires="+d.toGMTString();
-document.cookie = cname + "=" + cvalue + "; " + expires;
-}
-function getCookie(cname)
-{
-var name = cname + "=";
-var ca = document.cookie.split(';');
-for(var i=0; i<ca.length; i++)
-  {
-  var c = ca[i].trim();
-  if (c.indexOf(name)==0) return c.substring(name.length,c.length);
-  }
-return "";
-}
-
-//check existing cookie
-cook=getCookie("my_cookie");
-
-if(cook==""){
-   //cookie not found, so set seconds=60
-   var seconds = 3600; //set time in seconds
-}else{
-     seconds = cook;
-     console.log(cook);
-}
-
-function secondPassed() {
-    var minutes = Math.round((seconds - 30)/60);
-    var remainingSeconds = seconds % 60;
-    if (remainingSeconds < 10) {
-        remainingSeconds = "0" + remainingSeconds;
-    }
-    //store seconds to cookie
-    setCookie("my_cookie",seconds,5); //here 5 is expiry days
-
-    document.getElementById('countdown').innerHTML = minutes + ":" +    remainingSeconds;
-    if (seconds == 0) {
-        clearInterval(countdownTimer);
-        document.getElementById('countdown').innerHTML = "Buzz Buzz";
-        location.reload();
-    } else {
-        seconds--;
-    }
-}
-
-var countdownTimer = setInterval(secondPassed, 1000);
-    </script>
-    <style>
-    li.L0, li.L1, li.L2, li.L3,
-    li.L5, li.L6, li.L7, li.L8
-    { list-style-type: decimal !important }
-    </style>
-
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoDraft:300,400,500,700,400italic">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+    <?php echo $html->includeCss("style"); ?>
 </head>
 
-<!--
-<body class="container">
-    <div class="jumbotron">
-        <button class="btn btn-primary" type="button">
-            Time: <span class="badge"><div id="countdown"></div></span>
-        </button>
-        <button class="btn btn-primary" type="button">
-            QNo: <span class="badge">${{question_no}} / ${{question_total}}</span>
-        </button>
-        <br><br>
-        <form class="form-inline" action="" method="post">
-            <div class="input-group pad-bottom">
-                <span class="input-group-addon" id="basic-addon2">Question</span>
-                <textarea class="form-control" rows="1" id="comment" style="margin: 0px; height: 100px; width: 520px; text-align: center;" disabled>${{question}}</textarea>
+<body layout="column" ng-controller="AppCtrl">
+    <md-toolbar>
+        <h2 class="md-toolbar-tools">
+        <div flex="10" class="qno">Question <span class="number">#${{question_no}} / ${{question_total}} </span></div>
+        <div flex></div>
+        <div flex="5" class="time">05:44</div>
+    </h2>
+        <md-progress-linear class="md-accent" md-mode="determinate" value="{{ ( ${{question_no}}/${{question_total}} )*100 }}"></md-progress-linear>
+    </md-toolbar>
+    <br>
+    <md-content>
+        <div layout="row" layout-sm="column">
+            <div flex="5"></div>
+            <div flex>
+                <md-card>
+                    ${{image}}
+                    
+                    <md-card-content>
+                        <p>${{question}}</p>
+                    </md-card-content>
+                </md-card>
             </div>
-
-<div>
-    <img src="photo.php?id=${{image}}" alt="">
-</div>
-           
-
-            <pre class='prettyprint linenums' style='text-align:left;'><code>
-                ${{code}}
-            </code></pre>
-            
-            <br><br>
-            <div class="input-group answer">
-              <span class="input-group-addon">
-                <input type="radio" name="answer" value="1" id="answer1" aria-label="Option1" required>
-              </span>
-              <textarea class="form-control" rows="5" style="margin: 0px; height: 100px; width: 260px; text-align: center;" id="comment" disabled>${{answer1}}</textarea>
+            <div flex="5"></div>
+        </div>
+        <br>
+        <form action="" method="post">
+        
+        <md-radio-group ng-model="data">
+            <div layout="row" layout-sm="column">
+                <div flex="5"></div>
+                <div flex>
+                    <md-radio-button name="answer" value="1" id="answer1" required>
+                        <md-whiteframe class="md-whiteframe-z1" layout layout-align="center center" layout-padding>
+                            <span>${{answer1}}</span>
+                        </md-whiteframe>
+                    </md-radio-button>
+                </div>
+                <div flex="5"></div>
+                <div flex>
+                    <md-radio-button name="answer" value="2" id="answer2" required>
+                        <md-whiteframe class="md-whiteframe-z1" layout layout-align="center center" layout-padding>
+                            <span>${{answer2}}</span>
+                        </md-whiteframe>
+                    </md-radio-button>
+                </div>
+                <div flex="5"></div>
             </div>
-            <div class="input-group answer">
-              <span class="input-group-addon">
-                <input type="radio" name="answer" value="2" id="answer2" aria-label="Option1">
-              </span>
-              <textarea class="form-control" rows="5" style="margin: 0px; height: 100px; width: 260px; text-align: center;" id="comment" disabled>${{answer2}}</textarea>
+            <div layout="row" layout-sm="column">
+                <div flex="5"></div>
+                <div flex>
+                    <md-radio-button name="answer" value="3" id="answer3" required>
+                        <md-whiteframe class="md-whiteframe-z1" layout layout-align="center center" layout-padding>
+                            <span>${{answer3}}</span>
+                        </md-whiteframe>
+                    </md-radio-button>
+                </div>
+                <div flex="5"></div>
+                <div flex>
+                    <md-radio-button name="answer" value="4" id="answer4" required>
+                        <md-whiteframe class="md-whiteframe-z1" layout layout-align="center center" layout-padding>
+                            <span>${{answer4}}</span>
+                        </md-whiteframe>
+                    </md-radio-button>
+                </div>
+                <div flex="5"></div>
             </div>
-            <div class="input-group answer">
-              <span class="input-group-addon">
-                <input type="radio" name="answer" value="3" id="answer3" aria-label="Option1">
-              </span>
-              <textarea class="form-control" rows="5" style="margin: 0px; height: 100px; width: 260px; text-align: center;" id="comment" disabled>${{answer3}}</textarea>
-            </div>
-            <div class="input-group answer">
-              <span class="input-group-addon">
-                <input type="radio" name="answer" value="4" id="answer4" aria-label="Option1">
-              </span>
-              <textarea class="form-control" rows="5" style="margin: 0px; height: 100px; width: 260px; text-align: center;" id="comment" disabled>${{answer4}}</textarea>
-            </div>
-            <br><br>
-
-            <input type="submit" class="btn btn-info" value="Next" id="button1"><br>
-          <input type="text" name="qid" value="${{qid}}" id="qid" style="display:none;">
+        </md-radio-group>
+        <br>
+        <section layout="row" layout-sm="column" layout-align="center center">
+            <input type="text" name="qid" value="${{qid}}" id="qid" style="display:none;">
+            <input type="text" name="answer" ng-model="data" required style="display:none;">
+            <md-button type="submit" class="md-raised md-warn" style="min-width: 10em;">Next</md-button>
+        </section>
         </form>
-    </div>
-</body>
--->
 
-<style>
-    .box {
-        border: 1px solid #000;
-        border-radius: 10px;
-        padding: 10px;
-        margin-top: 10px;
-    }
-</style>
-
-
-<body>
-    <div class="container-fluid text-center">
-        <div class="row">
-            <div class="box col-md-8 col-md-offset-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil assumenda quaerat laborum labore, repellat officia voluptates iste explicabo non beatae voluptas hic, soluta harum, quidem aut ut earum quod repellendus.5</div>
-        </div>
-        <div class="row">
-            <div class="box col-md-4 col-md-offset-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, repellendus.</div>
-            <div class="box col-md-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, officiis!</div>
-        </div>
-        <div class="row">
-            <div class="box col-md-4 col-md-offset-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, sit.</div>
-            <div class="box col-md-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, quam.</div>
-        </div>
-    </div>
+        <br>
+    </md-content>
+    
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.min.js"></script>
+    <script src="bower_components/angular-material/angular-material.min.js"></script>
+    <script src="//cdn.jsdelivr.net/angular-material-icons/0.4.0/angular-material-icons.min.js"></script>
+    
+    
+    <?php echo $html->includeJs("script"); ?>
 </body>
 
 </html>

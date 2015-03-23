@@ -1,8 +1,8 @@
 <html>
 <head>
     <title>Welcome to Quiz</title>
-    <?php echo $html->includeFile("bootstrap.min.css"); ?>
-    <?php echo $html->includeFile("home.css"); ?>
+    <?php echo $html->includeCss("bootstrap.min"); ?>
+    <?php echo $html->includeCss("home"); ?>
 </head>
 <body class="container">
     <div class="jumbotron vertical-center">

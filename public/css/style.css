@@ -1,0 +1,55 @@
+body {
+    font-family: "RobotoDraft";
+}
+
+.number {
+    color: #fff;
+}
+
+.md-card-image {
+    height: 50%;
+    width: 50%;
+    margin: 0 auto;
+}
+.md-card-image:hover {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (min-width:320px) {
+     /* smartphones, iPhone, portrait 480x320 phones */
+    .toolbar {
+        margin-bottom: 20%;
+    }
+}
+@media (min-width:481px) {
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+    .toolbar {
+        margin-bottom: 15%;
+    }
+}
+@media (min-width:641px) {
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+    .toolbar {
+        margin-bottom: 9%;
+    }
+}
+@media (min-width:961px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+    .toolbar {
+        margin-bottom: 7%;
+    }
+}
+@media (min-width:1025px) {
+    /* big landscape tablets, laptops, and desktops */
+    .toolbar {
+        margin-bottom: 7%;
+    }
+}
+@media (min-width:1281px) {
+    /* hi-res laptops and desktops */
+    .toolbar {
+        margin-bottom: 5%;
+    }
+}

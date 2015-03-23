@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>The Quiz App</title>
-    <?php echo $html->includeCss("bootstrap.min"); ?>
-    <?php echo $html->includeCss("prettify"); ?>
-    <?php echo $html->includeJs("run_prettify"); ?>
-    <?php echo $html->includeCss("jumbotron-narrow"); ?>
-    <script src="http://localhost/quiz/public/js/jquery-2.1.3.js"></script>
+    <?php echo $html->includeFile("bootstrap.min.css"); ?>
+    <?php echo $html->includeFile("prettify.css"); ?>
+    <?php echo $html->includeFile("jumbotron-narrow.css"); ?>
+    <?php echo $html->includeFile("run_prettify.js"); ?>
+    <?php echo $html->includeFile("jquery-2.1.3.js"); ?>
     <script>
    function setCookie(cname,cvalue,exdays)
 {
@@ -68,6 +68,7 @@ var countdownTimer = setInterval(secondPassed, 1000);
 
 </head>
 
+<!--
 <body class="container">
     <div class="jumbotron">
         <button class="btn btn-primary" type="button">
@@ -82,9 +83,9 @@ var countdownTimer = setInterval(secondPassed, 1000);
                 <span class="input-group-addon" id="basic-addon2">Question</span>
                 <textarea class="form-control" rows="1" id="comment" style="margin: 0px; height: 100px; width: 520px; text-align: center;" disabled>${{question}}</textarea>
             </div>
-<pre class='prettyprint linenums' style='text-align:left;'><code
->${{code}}
-</code></pre>
+            <pre class='prettyprint linenums' style='text-align:left;'><code>
+                ${{code}}
+            </code></pre>
             <br><br>
             <div class="input-group answer">
               <span class="input-group-addon">
@@ -117,4 +118,32 @@ var countdownTimer = setInterval(secondPassed, 1000);
         </form>
     </div>
 </body>
+-->
+
+<style>
+    .box {
+        border: 1px solid #000;
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 10px;
+    }
+</style>
+
+
+<body>
+    <div class="container-fluid text-center">
+        <div class="row">
+            <div class="box col-md-8 col-md-offset-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil assumenda quaerat laborum labore, repellat officia voluptates iste explicabo non beatae voluptas hic, soluta harum, quidem aut ut earum quod repellendus.5</div>
+        </div>
+        <div class="row">
+            <div class="box col-md-4 col-md-offset-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, repellendus.</div>
+            <div class="box col-md-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, officiis!</div>
+        </div>
+        <div class="row">
+            <div class="box col-md-4 col-md-offset-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, sit.</div>
+            <div class="box col-md-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, quam.</div>
+        </div>
+    </div>
+</body>
+
 </html>

@@ -7,9 +7,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <?php echo $html->includeCss("bootstrap.min"); ?>
-    <?php echo $html->includeCss("jumbotron-narrow"); ?>
-    <script src="http://localhost/quiz/public/js/jquery-2.1.3.js"></script>
+    <?php echo $html->includeFile("bootstrap.min.css"); ?>
+    <?php echo $html->includeFile("jumbotron-narrow.css"); ?>
+    <?php echo $html->includeFile("jquery-2.1.3.js"); ?>
 
 </head>
 <body class="container">

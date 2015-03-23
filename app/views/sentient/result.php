@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Result</title>
-    <?php echo $html->includeCss("bootstrap.min"); ?>
-    <?php echo $html->includeCss("home"); ?>
+    <?php echo $html->includeFile("bootstrap.min.css"); ?>
+    <?php echo $html->includeFile("home.css"); ?>
 </head>
 <body class="container">
     <div class="jumbotron">

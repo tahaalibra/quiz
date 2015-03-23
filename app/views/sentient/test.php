@@ -82,9 +82,10 @@ var countdownTimer = setInterval(secondPassed, 1000);
                 <span class="input-group-addon" id="basic-addon2">Question</span>
                 <textarea class="form-control" rows="1" id="comment" style="margin: 0px; height: 100px; width: 520px; text-align: center;" disabled>${{question}}</textarea>
             </div>
-<pre class='prettyprint linenums' style='text-align:left;'><code
->${{code}}
-</code></pre>
+<div>
+    <img src="photo.php?id=${{image}}" alt="">
+</div>
+           
             <br><br>
             <div class="input-group answer">
               <span class="input-group-addon">

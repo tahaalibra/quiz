@@ -24,9 +24,23 @@ class AdminController extends Controller{
         $this->doNotRenderHeader=1;
         $this->admincheck();
         $model = new $this->model;
+        if( $_FILES['image']['name'] != "" ){
+            $image=$model->displayall()+1;
+            $target_dir = ROOT.DS.'app'.DS.'data';
+            $target_file = $target_dir .DS. $image;
+            move_uploaded_file( $_FILES['image']['tmp_name'], $target_file ) or 
+                die( "Could not copy file!");
+        }else{
+            $image=NULL;
+        }
+  
+        $model = new $this->model;
         $this->set("noofq",$model->displayall());
-        $model->add($_POST['question'],$_POST['code'],$_POST['answere1'],$_POST['answere2'],$_POST['answere3'],$_POST['answere4'],$_POST['answere']);
-        header("Location: admin");
+        $model->add($_POST['question'],$_POST['code'],
+                    $_POST['answere1'],$_POST['answere2'],
+                    $_POST['answere3'],$_POST['answere4'],
+                    $_POST['answere'],$image);
+        //header("Location: admin");
     }
 
 

@@ -11,13 +11,19 @@ class AdminModel extends Model
     return $number_of_rows;
   }
 
-function add($question,$code,$answere1,$answere2,$answere3,$answere4,$answere){
+function add($question,$code,$answere1,$answere2,$answere3,$answere4,$answere,$image){
 
 
-       $stmt = $this->dbconnect->prepare('INSERT INTO questions (question_name,code,answer1,answer2,answer3,answer4,answer) VALUES (:question_name,:code,:answer1,:answer2,:answer3,:answer4,:answer)');
+       $stmt = $this->dbconnect->prepare('INSERT INTO questions (question_name,code,answer1,
+                                                                 answer2,answer3,
+                                                                 answer4,answer,img) 
+                                                         VALUES (:question_name,:code,
+                                                                 :answer1,:answer2,
+                                                                 :answer3,:answer4,
+                                                                 :answer,:img)');
        $stmt->execute(array(':question_name'=>$question,':code'=>$code,':answer1'=>$answere1,
                             ':answer2'=>$answere2,':answer3'=>$answere3,
-                            ':answer4'=>$answere4,':answer'=>$answere));
+                            ':answer4'=>$answere4,':answer'=>$answere,':img'=>$image));
 
 
    }

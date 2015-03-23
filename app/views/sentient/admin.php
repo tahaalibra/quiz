@@ -22,11 +22,13 @@
 
         <div class="well well-sm">Add a new question</div>
         <br>
-        <form class="form-inline" action="<?php echo ''.INSTALL_FOLDER.DS.'admin/add';?>" method="post">
+        <form class="form-inline" action="<?php echo ''.INSTALL_FOLDER.DS.'admin/add';?>" method="post" enctype="multipart/form-data">
             <div class="input-group pad-bottom">
                 <span class="input-group-addon" id="basic-addon2">Question</span>
                 <textarea style="width: 488px; height: 103px;" type="text" name="question" class="form-control" placeholder="Enter a new question" aria-describedby="basic-addon2"></textarea>
             </div>
+            <br><br>
+            <input type="file" name="image" id="image" accept="image/*">
             <br><br>
             <div class="input-group pad-bottom">
                 <span class="input-group-addon" id="basic-addon2">Code</span>

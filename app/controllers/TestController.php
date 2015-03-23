@@ -42,7 +42,7 @@ class TestController extends Controller{
          {
             if($this->_valid=="0"){
              $this->_question=$model->generate_one();
-             $_SESSION["qid"]=$this->_question[0]['id'];
+             $_SESSION["qid"]=$this->_question['id'];
 
                 $this->_valid="1";
             }
@@ -53,13 +53,27 @@ class TestController extends Controller{
 
              $this->set("question_no", $model->countrows()+1);
              $this->set("question_total", QUESTION_LIMIT);
-             $this->set("question", $this->_question[0]['question_name']);
-             $this->set("answer1", $this->_question[0]['answer1']);
-             $this->set("answer2", $this->_question[0]['answer2']);
-             $this->set("answer3", $this->_question[0]['answer3']);
-             $this->set("answer4", $this->_question[0]['answer4']);
-             $this->set("qid", $this->_question[0]['id']);
-             $this->set("code", $this->_question[0]['code']);
+             $this->set("question", $this->_question['question_name']);
+             $this->set("answer1", $this->_question['answer1']);
+             $this->set("answer2", $this->_question['answer2']);
+             $this->set("answer3", $this->_question['answer3']);
+             $this->set("answer4", $this->_question['answer4']);
+             $this->set("qid", $this->_question['id']);
+            
+             if($this->_question['code']){
+                $this->set("code", $this->_question['code']);
+                 echo $this->_question['code'];
+                 /*
+                 <pre class='prettyprint linenums' style='text-align:left;'><code
+>${{code}}
+</code></pre>
+                 */
+             }
+             if($this->_question['img']){
+                $this->set("image", $this->_question['img']);
+                 echo "image";
+             }
+            
 
          }else
         { header('Location: result');}

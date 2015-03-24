@@ -111,7 +111,7 @@ function generate_result2($qid)
         $row = $stmt->fetchAll(PDO::FETCH_ASSOC);
         $count = $this->countUsers();
         
-        $stmt = $this->dbconnect->prepare("SELECT count(*) FROM `questions` a, `result` b, `score` c WHERE a.answer=b.answer AND a.id=b.q_id AND b.user_id=:id");
+        $stmt = $this->dbconnect->prepare("SELECT count(*) FROM `questions` a, `result` b WHERE a.answer=b.answer AND a.id=b.q_id AND b.user_id=:id");
         $stmt2 = $this->dbconnect->prepare("UPDATE  `score` SET score=:score WHERE user_id=:id");
         
         

@@ -7,7 +7,6 @@
     <?php echo $html->includeCss("style"); ?>
 
 
-
     <script>
         function setCookie(cname, cvalue, exdays) {
             var d = new Date();
@@ -59,9 +58,9 @@
 <body layout="column" ng-controller="AppCtrl">
     <md-toolbar>
         <h2 class="md-toolbar-tools">
-        <div flex="20" class="qno">Question <span class="number">${{question_no}} / ${{question_total}} </span></div>
+        <div flex="10" class="qno">Question <span class="number">#${{question_no}} / ${{question_total}} </span></div>
         <div flex></div>
-        <div flex="5" class="time" id="countdown"></div>
+        <div flex="5" class="time">05:44</div>
     </h2>
         <md-progress-linear class="md-accent" md-mode="determinate" value="{{ ( ${{question_no}}/${{question_total}} )*100 }}"></md-progress-linear>
     </md-toolbar>
@@ -74,7 +73,7 @@
                     ${{image}}
 
                     <md-card-content>
-                        <p>${{question}}</p>
+                        <p style="word-wrap: break-word;">${{question}}</p>
                     </md-card-content>
                 </md-card>
             </div>

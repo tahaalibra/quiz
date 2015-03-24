@@ -39,7 +39,7 @@
                     <!--<md-button class="md-fab md-primary md-hue-2" aria-label="Profile">
                         <ng-md-icon icon="photo" style="fill: #fff" size="42"></ng-md-icon>
                     </md-button>-->
-                                 
+
                     <div layout layout-sm="column">
                         <md-input-container flex>
                             <label>Option 1</label>
@@ -75,22 +75,26 @@
             </md-card-content>
         </md-card>
         <md-card>
-            <md-card-content>
-                <div flex></div>
-                <div flex>
+            <md-card-content layout="row" layout-align="center center">                
+                <div flex="50">
                     <form action="admin/register" method="post">
-                        <md-button class="md-raised md-primary" style="min-width: 20em; height: 3em;">Add User</md-button>
-                    </form> <br>
-                    <form action="admin/result" method="post">
-                        <md-button class="md-raised md-primary" style="min-width: 20em; height: 3em;">Result</md-button>
+                        <section layout="row" layout-sm="column" layout-align="center center">
+                            <md-button class="md-raised md-primary" style="min-width: 20em; height: 3em;">Add Users</md-button>
+                        </section>
                     </form>
                 </div>
-                <div flex></div>
+                <div flex>
+                    <form action="admin/result" method="post">
+                        <section layout="row" layout-sm="column" layout-align="center center">
+                            <md-button class="md-raised md-primary" style="min-width: 20em; height: 3em;">Result</md-button>
+                        </section>
+                    </form>
+                </div>
             </md-card-content>
         </md-card>
     </md-content>
     <!-- Angular Material Dependencies -->
-    <script src="bower_components/angular/angular.min.js"></script>
+    <script src=INSTALL_FOLDER."/bower_components/angular/angular.min.js"></script>
     <script src="bower_components/angular-animate/angular-animate.min.js"></script>
     <script src="bower_components/angular-aria/angular-aria.min.js"></script>
     <script src="bower_components/angular-material/angular-material.min.js"></script>

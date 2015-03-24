@@ -47,8 +47,8 @@ function generate_result2($qid)
         $stmt = $this->dbconnect->prepare("SELECT * FROM `score` WHERE `user_id` = :uid");
         $stmt->execute(array('uid' => $_SESSION['user_id']));
         $stmt->execute();
-        $row = $stmt->fetchAll(PDO::FETCH_ASSOC);
-        return $row[0]['name'];
+        $row = $stmt->fetch(PDO::FETCH_ASSOC);
+        return $row['name'];
     }
 
 }

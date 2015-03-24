@@ -15,20 +15,21 @@
         <div flex="33">
             <div layout-fill layout-padding layout-margin>
                 <md-whiteframe class="md-whiteframe-z2">
-                    <form class="form-inline" action="" method="post">
+                    <form class="form-inline" action="test" method="post">
                         <md-input-container md-no-float flex style="width:100%">
-                            <input type="text" placeholder="Full Name" name="username">
+                           <label>Full Name</label>
+                            <input type="text" name="username">
                         </md-input-container>
                         <div flex="15">
                             <section layout="row" layout-sm="column" layout-align="center center">
-                                <md-button class="md-raised md-warn" style="min-width: 10em;">Start Quiz</md-button>
+                                <md-button class="md-raised md-primary" style="min-width: 10em;">Start Quiz</md-button>
                             </section>
                         </div>
                     </form>
                     <br>
                     <form class="form-inline" action="<?php echo ''.INSTALL_FOLDER.'/signout';?>" method="post">
                         <section layout="row" layout-sm="column" layout-align="center center">
-                            <md-button class="md-raised md-warn" style="min-width: 10em;">Signout</md-button>
+                            <md-button class="md-raised md-primary" style="min-width: 10em;">Signout</md-button>
                         </section>
                     </form>
                 </md-whiteframe>
@@ -36,12 +37,11 @@
         </div>
     </md-content>
     <!-- Angular Material Dependencies -->
-    <?php echo $html->includeJs("angular.min"); ?>
-    <?php echo $html->includeJs("angular-animate.min"); ?>
-    <?php echo $html->includeJs("angular-aria.min"); ?>
-    <?php echo $html->includeJs("angular-material.min"); ?>
+    <?php echo $html->js("bower_components/angular/angular.min"); ?>
+    <?php echo $html->js("bower_components/angular-animate/angular-animate.min"); ?>
+    <?php echo $html->js("bower_components/angular-aria/angular-aria.min"); ?>
+    <?php echo $html->js("bower_components/angular-material/angular-material.min"); ?>
     <script src="//cdn.jsdelivr.net/angular-material-icons/0.4.0/angular-material-icons.min.js"></script>
-    <!-- My Script -->
     <?php echo $html->includeJs("script"); ?>
 </body>
 

@@ -16,6 +16,17 @@
             <h2>Thank you for appearing for the test.</h2>
         </md-whiteframe>
     </div>
+    <div flex layout="row" layout-align="center center" style="text-align:center;">
+        <div>
+            <br>
+            <br>
+            <br> Sometimes it&#39;s the people no one imagines anything of who do the things that no one can imagine
+            <br>
+            <br> Quiz V1.1 Material Developed At CatchPenny Lab
+            <br>
+        </div>
+    </div>
+    <div flex>
     <!-- Angular Material Dependencies -->
     <?php echo $html->includeJs("angular.min"); ?>
     <?php echo $html->includeJs("angular-animate.min"); ?>

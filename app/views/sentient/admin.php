@@ -80,7 +80,7 @@
                 <div flex>
                     <form action="admin/register" method="post">
                         <md-button class="md-raised md-primary" style="min-width: 20em; height: 3em;">Add User</md-button>
-                    </form> <br>
+                    </form>
                     <form action="admin/result" method="post">
                         <md-button class="md-raised md-primary" style="min-width: 20em; height: 3em;">Result</md-button>
                     </form>

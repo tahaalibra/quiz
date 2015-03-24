@@ -20,6 +20,7 @@
             <md-content class="md-padding" layout-align="center center" style="font-size:1.2em">
                 <md-whiteframe class="md-whiteframe-z2" layout="column" layout-align="center center" layout-padding>
                     <form action="<?php echo INSTALL_FOLDER.'/signin';?>" method="post">
+                    
                     <md-input-container md-no-float flex style="width:100%">
                         <ng-md-icon icon="email" style="fill: #01579b" size="48"></ng-md-icon>
                         <input type="text" placeholder="username" name="username">

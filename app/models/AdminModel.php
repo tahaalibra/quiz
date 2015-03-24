@@ -28,7 +28,7 @@ function add($question,$code,$answere1,$answere2,$answere3,$answere4,$answere,$i
 
    }
 
-
+/*
     function resultforall(){
         $stmt = $this->dbconnect->prepare("SELECT * FROM `score`");
          $stmt->execute();
@@ -77,27 +77,16 @@ function generate_result2($qid)
     $stmt = $this->dbconnect->prepare("SELECT * FROM `questions` WHERE `id` = :id");
     $stmt->execute(array('id' => $qid));
     $row = $stmt->fetchAll(PDO::FETCH_ASSOC);
-
+    if($row[0]["answer"]){
     return $row[0]["answer"];
-  }
-
-
-    function display(){
-
-         $stmt = $this->dbconnect->prepare("SELECT * FROM `score` ORDER BY name ASC");
-         $stmt->execute();
-        $row = $stmt->fetchAll(PDO::FETCH_ASSOC);
-
-
-        echo "<table> <tr><td>name</td><td>score</td><tr>";
-        for ($i = 0; $i<$stmt->rowCount();$i++){
-
-            echo "<tr><td>".$row[$i]["name"]."</td><td>".$row[$i]["score"]."</td><tr>";
-
-        }
-        echo "</table>";
     }
+    else{
+        return 0;
+    }
+  }
+*/
 
+   
 
 
     public function register($username,$password){
@@ -109,5 +98,37 @@ function generate_result2($qid)
 
 
    }
+    public function countUsers(){
+        $stmt = $this->dbconnect->prepare("SELECT COUNT(*) FROM `score` WHERE 1");
+        $stmt->execute();
+        return $stmt->fetchColumn();
+    }
+    
+    public function fullResult()
+    {
+        $stmt = $this->dbconnect->prepare("SELECT user_id FROM `score` WHERE 1");
+        $stmt->execute();
+        $row = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        $count = $this->countUsers();
+        
+        $stmt = $this->dbconnect->prepare("SELECT count(*) FROM `questions` a, `result` b, `score` c WHERE a.answer=b.answer AND a.id=b.q_id AND b.user_id=:id");
+        $stmt2 = $this->dbconnect->prepare("UPDATE  `score` SET score=:score WHERE user_id=:id");
+        
+        
+        for($i=0;$i<$count;$i++)
+        {
+            $stmt->execute(array('id' => $row[$i]['user_id']));
+            $score= $stmt->fetchColumn();
+            $stmt2->execute(array('id' => $row[$i]['user_id'],'score'=>$score));
+            
+        }
+        
+        
+        $stmt = $this->dbconnect->prepare("SELECT name, score FROM `score` WHERE 1 ORDER BY name ASC");
+        $stmt->execute();
+        $row = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        return $row;
+        
+    }
 
 }

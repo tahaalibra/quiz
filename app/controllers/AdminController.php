@@ -50,11 +50,15 @@ class AdminController extends Controller{
 
 
     function result()
-    {   $this->render=0;
+    {   $this->doNotRenderHeader=1;
         $this->admincheck();
         $model = new $this->model;
-        $model->resultforall();
-        $model->display();
+        //$model->resultforall();
+        $result=$model->fullresult();
+        $this->set('result',$result);
+        $this->set('users',$model->countUsers());
+        //$model->display();
+        
     }
 
 
@@ -70,6 +74,20 @@ class AdminController extends Controller{
         file_put_contents(ROOT.DS.'test.html',$temp.$_POST['username'].'-'.$password.'<br>');
         header('Location: '.INSTALL_FOLDER.'/redirect.php?to=admin/register');
         }
-
+/*
+        $user="9922753782,8928459676,8007961664,9869246327,8796720747,7709575400,8657656406,8087206534,7057568619,9930414898,7057566226,8793755690,8605116661,8087494395,7744955538,9403498220,7083750175,8149831446,9623445930,9158086106,8237227438,9689659783,9028269129,7758988673,7709943551,7385588174,7875747296,9049487137,9175323460,7058571625,9209202814,9762851417,7709617821,9820823834,8796579768,9860721240,8796904759,9167679170";
+     
+     $user=explode(',',$user);
+     
+     foreach($user as $x){
+         $password=rand(10000,99999);
+         $model->register($x,$password);
+         $this->set('password',$password);
+         $temp=file_get_contents(ROOT.DS.'test.html');
+         file_put_contents(ROOT.DS.'test.html',$temp.$x.'-'.$password.'<br>');
+     }
+    
+    */
     }
+    
 }

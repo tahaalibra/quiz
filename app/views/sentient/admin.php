@@ -1,7 +1,7 @@
 <html lang="en" ng-app="AdminApp">
 
 <head>
-    <?php echo $html->css("bower_components//angular-material/angular-material.min"); ?>
+    <?php echo $html->css("bower_components/angular-material/angular-material.min"); ?>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoDraft:300,400,500,700,400italic">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
     <?php echo $html->includeCss("style"); ?>
@@ -77,14 +77,14 @@
         <md-card>
             <md-card-content layout="row" layout-align="center center">
                 <div flex="50">
-                    <form action="admin/register" method="post">
+                    <form action="<?php echo ''.INSTALL_FOLDER.'/admin/register';?>" method="post">
                         <section layout="row" layout-sm="column" layout-align="center center">
                             <md-button class="md-raised md-primary" style="min-width: 20em; height: 3em;">Add Users</md-button>
                         </section>
                     </form>
                 </div>
                 <div flex>
-                    <form action="admin/result" method="post">
+                    <form action="<?php echo ''.INSTALL_FOLDER.'/admin/result';?>" method="post">
                         <section layout="row" layout-sm="column" layout-align="center center">
                             <md-button class="md-raised md-primary" style="min-width: 20em; height: 3em;">Result</md-button>
                         </section>
@@ -101,9 +101,9 @@
         <div>
             <br>
             <br>
-            <br> Sometimes it&#39;s the people no one imagines anything of who do the things that no one can imagine
+            <br>I remember the first time I saw someone move like they were from another planet.
             <br>
-            <br> Quiz V1.1 Material Developed At CatchPenny Lab
+            <br> Quiz V1.1 Material Developed By The A Club, MIT
             <br>
         </div>
     </div>

@@ -4,13 +4,75 @@ class TestModel extends Model{
 
 
 
+function scoreExists()
+{
+    $stmt = $this->dbconnect->prepare("SELECT COUNT(*) FROM `score` WHERE `user_id` = :uid");
+    $stmt->execute(array('uid' => $_SESSION['user_id']));
+    $stmt->execute();
+    $count = $stmt->fetchColumn();
+    return $count;
+}
 
+function zeroCount()
+{
+      $stmt = $this->dbconnect->prepare("SELECT COUNT(*) FROM `result` WHERE `user_id` = :uid AND `answer`=0");
+      $stmt->execute(array('uid' => $_SESSION['user_id']));
+      $stmt->execute();
+      $count = $stmt->fetchColumn();
+      return $count;
+}
+
+function qidWithZero()
+{
+      $stmt = $this->dbconnect->prepare("SELECT q_id FROM `result` WHERE `user_id` = :uid AND `answer`=0");
+      $stmt->execute(array('uid' => $_SESSION['user_id']));
+      $stmt->execute();
+      $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
+      return $rows;
+}
+
+function putresult($qid,$answer)
+  {
+    $uid=$_SESSION['user_id'];
+    $stmt = $this->dbconnect->prepare("UPDATE `result` SET `answer`=:answer WHERE `q_id` = :qid AND `user_id`= :uid");
+    $stmt->execute(array(':answer' => $answer,'qid' => $qid,'uid' => $uid));
+  }
+  
+function get_next($next)
+{
+    $stmt = $this->dbconnect->prepare("SELECT * FROM `result` WHERE user_id=:uid limit :next,1");
+    $stmt->bindValue(':next',(int) trim($next), PDO::PARAM_INT);
+    $stmt->bindValue(':uid',(int) trim($_SESSION['user_id']));
+    $stmt->execute();
+    $row = $stmt->fetch(PDO::FETCH_ASSOC);
+    
+    return $this->generate_withid($row['q_id']);   
+
+}
+
+function generate_withid($q_id)
+{
+    $stmt = $this->dbconnect->prepare("SELECT * FROM `questions` WHERE `id` = :qid");
+    $stmt->execute(array('qid' => $q_id));
+    $stmt->execute();
+    $row = $stmt->fetch(PDO::FETCH_ASSOC);
+    return $row;
+}
+
+
+
+    
+    
+    
+    
+    
+/*    
 function countrows()
 {
     $stmt = $this->dbconnect->prepare("SELECT * FROM `result` WHERE `user_id` = :uid");
     $stmt->execute(array('uid' => $_SESSION['user_id']));
     $stmt->execute();
-    //$row = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    $row = $stmt->fetchAll(PDO::FETCH_ASSOC);
     return $stmt->rowCount();
 }
 
@@ -58,5 +120,5 @@ function putresult($answer,$qid)
             return false;
             }
   }
-
+*/
 }

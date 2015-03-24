@@ -1,7 +1,7 @@
 <html lang="en" ng-app="LoginApp">
 
 <head>
-    <?php echo $html->css("bower_components//angular-material/angular-material.min"); ?>
+    <?php echo $html->css("bower_components/angular-material/angular-material.min"); ?>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoDraft:300,400,500,700,400italic">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
     <link rel="stylesheet" href="style.css">
@@ -52,9 +52,9 @@
         <div>
             <br>
             <br>
-            <br> Sometimes it&#39;s the people no one imagines anything of who do the things that no one can imagine
+            <br>I remember the first time I saw someone move like they were from another planet.
             <br>
-            <br> Quiz V1.1 Material Developed At CatchPenny Lab
+            <br> Quiz V1.1 Material Developed By The A Club, MIT
             <br>
         </div>
     </div>

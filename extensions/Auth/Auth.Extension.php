@@ -112,7 +112,7 @@ class Auth
                                           $httponly);
             session_name($session_name);
             session_start();
-            session_regenerate_id(true);
+            //session_regenerate_id(true);
           }
     }
 

@@ -15,10 +15,10 @@
         <div flex="33">
             <div layout-fill layout-padding layout-margin>
                 <md-whiteframe class="md-whiteframe-z2">
-                    <form class="form-inline" action="test" method="post">
+                    <form class="form-inline" action="" method="post">
                         <md-input-container md-no-float flex style="width:100%">
                            <label>Full Name</label>
-                            <input type="text" name="username">
+                            <input type="text" name="name">
                         </md-input-container>
                         <div flex="15">
                             <section layout="row" layout-sm="column" layout-align="center center">

@@ -1,9 +1,11 @@
 <html lang="en" ng-app="TestApp">
 
 <head>
-     <?php echo $html->css("bower_components//angular-material/angular-material.min"); ?>
+     <?php echo $html->css("bower_components/angular-material/angular-material.min"); ?>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoDraft:300,400,500,700,400italic">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+    <?php echo $html->css("css/pace"); ?>
+    <?php echo $html->js("js/pace.min"); ?>
     <?php echo $html->includeCss("style"); ?>
 
 
@@ -58,23 +60,27 @@
 <body layout="column" ng-controller="AppCtrl">
     <md-toolbar>
         <h2 class="md-toolbar-tools">
-        <div flex="10" class="qno">Question <span class="number">#${{question_no}} / ${{question_total}} </span></div>
+        <div flex="15" class="qno">Question <span class="number">#${{question_no}} / ${{question_total}} </span></div>
         <div flex></div>
         <div flex="5" class="time" id="countdown"></div>
     </h2>
-        <md-progress-linear class="md-accent" md-mode="determinate" value="{{ ( ${{question_no}}/${{question_total}} )*100 }}"></md-progress-linear>
+        <md-progress-linear class="md-accent" md-mode="determinate" value="{{ ( ${{question_done}}/${{question_total}} )*100 }}"></md-progress-linear>
     </md-toolbar>
     <br>
     <md-content>
         <div layout="row" layout-sm="column">
             <div flex="5"></div>
-            <div flex>
+            <div flex="90">
+               <br>
                 <md-card>
                     ${{image}}
-
-                    <md-card-content>
-                        <p style="word-wrap: break-word;">${{question}}</p>
+                     <div flex>
+                    <md-card-content layout-padding>
+                        <div flex>
+                            <p style="word-wrap: break-word;">${{question}}</p>
+                        </div>                        
                     </md-card-content>
+                    </div>
                 </md-card>
             </div>
             <div flex="5"></div>
@@ -126,6 +132,7 @@
             <section layout="row" layout-sm="column" layout-align="center center">
                 <input type="text" name="qid" value="${{qid}}" id="qid" style="display:none;">
                 <input type="text" name="answer" ng-model="data" required style="display:none;">
+                <input type="text" name="next" value="${{next}}" required style="display:none;">
                 <md-button type="submit" class="md-raised md-warn" style="min-width: 10em;">Next</md-button>
             </section>
         </form>

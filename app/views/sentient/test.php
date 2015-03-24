@@ -28,7 +28,7 @@
         cook = getCookie("my_cookie");
         if (cook == "") {
             //cookie not found, so set seconds=60
-            var seconds = 3600; //set time in seconds
+            var seconds = 120; //set time in seconds
         } else {
             seconds = cook;
             console.log(cook);
@@ -60,7 +60,7 @@
         <h2 class="md-toolbar-tools">
         <div flex="10" class="qno">Question <span class="number">#${{question_no}} / ${{question_total}} </span></div>
         <div flex></div>
-        <div flex="5" class="time">05:44</div>
+        <div flex="5" class="time" id="countdown"></div>
     </h2>
         <md-progress-linear class="md-accent" md-mode="determinate" value="{{ ( ${{question_no}}/${{question_total}} )*100 }}"></md-progress-linear>
     </md-toolbar>

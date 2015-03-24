@@ -1,7 +1,7 @@
 <html lang="en" ng-app="AdminApp">
 
 <head>
-     <?php echo $html->css("bower_components//angular-material/angular-material.min"); ?>
+    <?php echo $html->css("bower_components//angular-material/angular-material.min"); ?>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoDraft:300,400,500,700,400italic">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
     <?php echo $html->includeCss("style"); ?>
@@ -75,7 +75,7 @@
             </md-card-content>
         </md-card>
         <md-card>
-            <md-card-content layout="row" layout-align="center center">                
+            <md-card-content layout="row" layout-align="center center">
                 <div flex="50">
                     <form action="admin/register" method="post">
                         <section layout="row" layout-sm="column" layout-align="center center">
@@ -93,6 +93,22 @@
             </md-card-content>
         </md-card>
     </md-content>
+
+
+    <div flex>
+    </div>
+    <div flex layout="row" layout-align="center center" style="text-align:center;">
+        <div>
+            <br>
+            <br>
+            <br> Sometimes it’s the people no one imagines anything of who do the things that no one can imagine
+            <br>
+            <br> Quiz V1.1 Material Developed At CatchPenny Lab
+            <br>
+        </div>
+    </div>
+    <div flex>
+    </div>
     <!-- Angular Material Dependencies -->
     <?php echo $html->js("bower_components/angular/angular.min"); ?>
     <?php echo $html->js("bower_components/angular-animate/angular-animate.min"); ?>

@@ -25,7 +25,7 @@
                     ${{image}}
                     
                     <md-card-content>
-                        <p>${{question}}</p>
+                        <p style="word-wrap: break-word;">${{question}}</p>
                     </md-card-content>
                 </md-card>
             </div>

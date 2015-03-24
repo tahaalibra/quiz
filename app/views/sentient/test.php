@@ -1,7 +1,7 @@
 <html lang="en" ng-app="TestApp">
 
 <head>
-    <link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css">
+     <?php echo $html->css("bower_components//angular-material/angular-material.min"); ?>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoDraft:300,400,500,700,400italic">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
     <?php echo $html->includeCss("style"); ?>
@@ -133,14 +133,13 @@
         <br>
     </md-content>
 
-    <script src="bower_components/angular/angular.min.js"></script>
-    <script src="bower_components/angular-animate/angular-animate.min.js"></script>
-    <script src="bower_components/angular-aria/angular-aria.min.js"></script>
-    <script src="bower_components/angular-material/angular-material.min.js"></script>
+    <?php echo $html->js("bower_components/angular/angular.min"); ?>
+    <?php echo $html->js("bower_components/angular-animate/angular-animate.min"); ?>
+    <?php echo $html->js("bower_components/angular-aria/angular-aria.min"); ?>
+    <?php echo $html->js("bower_components/angular-material/angular-material.min"); ?>
     <script src="//cdn.jsdelivr.net/angular-material-icons/0.4.0/angular-material-icons.min.js"></script>
-
-
     <?php echo $html->includeJs("script"); ?>
+
 </body>
 
 </html>

@@ -1,7 +1,7 @@
 <html lang="en" ng-app="LoginApp">
 
 <head>
-     <?php echo $html->includeCss("angular-material.min"); ?>
+     <?php echo $html->css("bower_components//angular-material/angular-material.min"); ?>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoDraft:300,400,500,700,400italic">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
     <link rel="stylesheet" href="style.css">
@@ -22,10 +22,12 @@
                     <form action="<?php echo INSTALL_FOLDER.'/signin';?>" method="post">
                     <md-input-container md-no-float flex style="width:100%">
                         <ng-md-icon icon="email" style="fill: #01579b" size="48"></ng-md-icon>
+                        <label>Username</label>
                         <input type="text" placeholder="username" name="username">
                     </md-input-container>
                     <md-input-container md-no-float flex style="width:100%">
                         <ng-md-icon icon="vpn_key" style="fill: #42bd41" size="48"></ng-md-icon>
+                        <label>Password</label>
                         <input type="password" placeholder="Your password"  name="password">
                     </md-input-container>
                     <br>
@@ -39,13 +41,11 @@
         </div>
     </md-content>
 
-        <!-- Angular Material Dependencies -->
-    <?php echo $html->includeJs("angular.min"); ?>
-    <?php echo $html->includeJs("angular-animate.min"); ?>
-    <?php echo $html->includeJs("angular-aria.min"); ?>
-    <?php echo $html->includeJs("angular-material.min"); ?>
+    <?php echo $html->js("bower_components/angular/angular.min"); ?>
+    <?php echo $html->js("bower_components/angular-animate/angular-animate.min"); ?>
+    <?php echo $html->js("bower_components/angular-aria/angular-aria.min"); ?>
+    <?php echo $html->js("bower_components/angular-material/angular-material.min"); ?>
     <script src="//cdn.jsdelivr.net/angular-material-icons/0.4.0/angular-material-icons.min.js"></script>
-        <!-- My Script -->
     <?php echo $html->includeJs("script"); ?>
 </body>
 

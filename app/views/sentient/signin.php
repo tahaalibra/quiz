@@ -23,11 +23,11 @@
                     
                     <md-input-container md-no-float flex style="width:100%">
                         <ng-md-icon icon="email" style="fill: #01579b" size="48"></ng-md-icon>
-                        <input type="text" placeholder="username" name="username">
+                        <input type="text" name="username">
                     </md-input-container>
                     <md-input-container md-no-float flex style="width:100%">
                         <ng-md-icon icon="vpn_key" style="fill: #42bd41" size="48"></ng-md-icon>
-                        <input type="password" placeholder="Your password"  name="password">
+                        <input type="password" name="password">
                     </md-input-container>
                     <br>
                     <section layout="row" layout-sm="column" layout-align="center center">

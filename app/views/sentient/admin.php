@@ -74,6 +74,20 @@
                 </form>
             </md-card-content>
         </md-card>
+        <md-card>
+            <md-card-content>
+                <div flex></div>
+                <div flex>
+                    <form action="admin/register" method="post">
+                        <md-button class="md-raised md-primary" style="min-width: 20em; height: 3em;">Add User</md-button>
+                    </form> <br>
+                    <form action="admin/result" method="post">
+                        <md-button class="md-raised md-primary" style="min-width: 20em; height: 3em;">Result</md-button>
+                    </form>
+                </div>
+                <div flex></div>
+            </md-card-content>
+        </md-card>
     </md-content>
     <!-- Angular Material Dependencies -->
     <script src="bower_components/angular/angular.min.js"></script>

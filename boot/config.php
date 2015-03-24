@@ -38,6 +38,6 @@ $url = ltrim($url,'/');
 
 
 //Quiz Configuration
-define('QUESTION_LIMIT', '5');
+define('QUESTION_LIMIT', '10');
 define('RESULT_DISPLAY', true);
 define('TIME_LIMIT', '1800');

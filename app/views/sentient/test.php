@@ -4,8 +4,6 @@
      <?php echo $html->css("bower_components/angular-material/angular-material.min"); ?>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoDraft:300,400,500,700,400italic">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
-    <?php echo $html->css("css/pace"); ?>
-    <?php echo $html->js("js/pace.min"); ?>
     <?php echo $html->includeCss("style"); ?>
 
 
@@ -30,7 +28,7 @@
         cook = getCookie("my_cookie");
         if (cook == "") {
             //cookie not found, so set seconds=60
-            var seconds = 120; //set time in seconds
+            var seconds = 1800; //set time in seconds
         } else {
             seconds = cook;
             console.log(cook);

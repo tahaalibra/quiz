@@ -1,0 +1,8 @@
+[27-May-2015 16:35:39 Europe/Berlin] PHP Notice:  Use of undefined constant HTTPS_ONLY - assumed 'HTTPS_ONLY' in E:\xampp\htdocs\quizv2\dales\kernel\checks.php on line 58
+[27-May-2015 16:35:46 Europe/Berlin] PHP Notice:  Use of undefined constant HTTPS_ONLY - assumed 'HTTPS_ONLY' in E:\xampp\htdocs\quizv2\dales\kernel\checks.php on line 58
+[27-May-2015 16:36:22 Europe/Berlin] PHP Notice:  Undefined variable: admin in E:\xampp\htdocs\quizv2\dales\system\Auth\Auth.php on line 23
+[27-May-2015 16:53:57 Europe/Berlin] PHP Notice:  Undefined variable: admin in E:\xampp\htdocs\quizv2\dales\system\Auth\Auth.php on line 23
+[27-May-2015 17:03:40 Europe/Berlin] PHP Notice:  Undefined variable: admin in E:\xampp\htdocs\quizv2\dales\system\Auth\Auth.php on line 23
+[27-May-2015 17:40:02 Europe/Berlin] PHP Notice:  Undefined variable: admin in E:\xampp\htdocs\quizv2\dales\system\Auth\Auth.php on line 23
+[27-May-2015 17:40:08 Europe/Berlin] PHP Notice:  Undefined variable: admin in E:\xampp\htdocs\quizv2\dales\system\Auth\Auth.php on line 23
+[27-May-2015 17:40:58 Europe/Berlin] PHP Notice:  Undefined variable: demo in E:\xampp\htdocs\quizv2\dales\system\Auth\Auth.php on line 23

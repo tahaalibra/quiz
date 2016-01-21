@@ -17,17 +17,17 @@ class HomeController
         {
             $zero=$model->zeroCount();
             if($zero==0){
-                header("Location: ".BP."result");
+                //header("Location: ".BP."result");
             }else{
                 header("Location: ".BP."test");
             }
         }else{
-            //print_r($_COOKIE['my_cookie']);
-            setcookie('my_cookie', null, time() - 3600, '/');
-            setcookie('my_cookie', null, time() - 3600, '/');
+            print_r($_COOKIE['my_cookie']);
             setcookie('my_cookie');
+            setcookie('my_cookie', null, time() - 3600, '/');
+            setcookie('my_cookie', null, time() - 3600, '/');
             unset($_COOKIE['my_cookie']);
-            //print_r($_COOKIE['my_cookie']);
+            print_r($_COOKIE['my_cookie']);
         }
 
         if(isset($_POST['start_test'])&&!empty($_POST['start_test']))

@@ -12,6 +12,7 @@ class TestController{
      function test(){
 
         Auth::checkLogin(true);
+
         $model = new TestModel;
          define('QUESTION_LIMIT',$model->selectedQuestion());
          
@@ -37,17 +38,16 @@ class TestController{
             if($zero!=0){
 
                 if(isset($_COOKIE["my_cookie"])){
-                    if($_COOKIE["my_cookie"]==0){                        
+                    if(strcmp($_COOKIE["my_cookie"],'finish') == true){
                         //fetch quid with zero
                         $qid = $model->qidWithZero();
                         for($j=0;$j<$zero;$j++){
                             $model->putresult($qid[$j]['q_id'],-1);
                         }
-                            setcookie('my_cookie', null, time() - 3600, '/');
-                            setcookie('my_cookie', null, time() - 3600, '/');
-                            setcookie('my_cookie');
-                            unset($_COOKIE['my_cookie']);
-                            header('Location: result.php');
+                        unset($_COOKIE['my_cookie']);
+                        setcookie('my_cookie', null, time() - 3600, '/');
+                        setcookie('my_cookie', null, time() - 3600, '/');
+                        header('Location: result.php');
                     }
                 }
              

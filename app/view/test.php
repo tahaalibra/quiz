@@ -36,6 +36,10 @@
             //console.log(cook);
         }
 
+        var delete_cookie = function(name) {
+            document.cookie = name + '=;expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+        };
+
         function secondPassed() {
             var minutes = Math.round((seconds - 30) / 60);
             var remainingSeconds = seconds % 60;
@@ -46,6 +50,7 @@
             setCookie("my_cookie", seconds, 1); //here 5 is expiry days
             document.getElementById('countdown').innerHTML = minutes + ":" + remainingSeconds;
             if (seconds == 0) {
+                setCookie("my_cookie", 'finish', 1);
                 clearInterval(countdownTimer);
                 document.getElementById('countdown').innerHTML = "Buzz Buzz";
                 location.reload();

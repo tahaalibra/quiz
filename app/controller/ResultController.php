@@ -16,7 +16,7 @@ class ResultController
 
       if(isset($_POST["reset"])&&!empty($_POST['reset']))
       {
-          $model->reset();
+          //$model->reset();
           header("Location: ".BP."signout.php");
       }
 

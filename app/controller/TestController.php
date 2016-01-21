@@ -12,7 +12,7 @@ class TestController{
      function test(){
 
         Auth::checkLogin(true);
-        print_r($_COOKIE);
+        //print_r($_COOKIE);
         $model = new TestModel;
          define('QUESTION_LIMIT',$model->selectedQuestion());
          
@@ -44,11 +44,11 @@ class TestController{
                         for($j=0;$j<$zero;$j++){
                             $model->putresult($qid[$j]['q_id'],-1);
                         }
-                        print_r($_COOKIE);
+                        //print_r($_COOKIE);
                         unset($_COOKIE['my_cookie']);
                         setcookie('my_cookie', null, time() - 3600, '/');
                         setcookie('my_cookie', null, time() - 3600, '/');
-                        print_r($_COOKIE);
+                        //print_r($_COOKIE);
 
                         //die();
                         header('Location: result.php');

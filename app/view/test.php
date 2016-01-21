@@ -30,7 +30,7 @@
         cook = getCookie("my_cookie");
         if (cook == "") {
             //cookie not found, so set seconds=60
-            var seconds = 10; //set time in seconds
+            var seconds = 120; //set time in seconds
         } else {
             seconds = cook;
             //console.log(cook);

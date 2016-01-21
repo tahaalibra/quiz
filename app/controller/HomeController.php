@@ -13,11 +13,14 @@ class HomeController
 
         $model = new HomeModel;
 
+//        print_r($_COOKIE);
+        //die();
+
         if($model->exists())
         {
             $zero=$model->zeroCount();
             if($zero==0){
-                //header("Location: ".BP."result");
+                header("Location: ".BP."result");
             }else{
                 header("Location: ".BP."test");
             }

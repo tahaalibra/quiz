@@ -30,7 +30,7 @@
         cook = getCookie("my_cookie");
         if (cook == "") {
             //cookie not found, so set seconds=60
-            var seconds = 120; //set time in seconds
+            var seconds = 10; //set time in seconds
         } else {
             seconds = cook;
             //console.log(cook);
@@ -50,7 +50,6 @@
             setCookie("my_cookie", seconds, 1); //here 5 is expiry days
             document.getElementById('countdown').innerHTML = minutes + ":" + remainingSeconds;
             if (seconds == 0) {
-                setCookie("my_cookie", 'finish', 1);
                 clearInterval(countdownTimer);
                 document.getElementById('countdown').innerHTML = "Buzz Buzz";
                 location.reload();

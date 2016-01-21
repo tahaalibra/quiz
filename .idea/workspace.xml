@@ -22,21 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="addquestion.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/view/admin/addquestion.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.166667">
-              <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TestController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controller/TestController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.927273">
-              <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+            <state vertical-scroll-proportion="-14.181818">
+              <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -45,30 +35,9 @@
       <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/view/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.125">
-              <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+            <state vertical-scroll-proportion="-10.625">
+              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestModel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/model/TestModel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47272727">
-              <caret line="20" column="66" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="66" />
-              <folding>
-                <marker date="1453399487637" expanded="true" signature="159:210" placeholder="SELECT COUNT... score" />
-                <marker date="1453399487637" expanded="true" signature="415:482" placeholder="SELECT COUNT... result" />
-                <marker date="1453399487637" expanded="true" signature="697:760" placeholder="SELECT q_id result" />
-                <marker date="1453399487637" expanded="true" signature="1027:1103" placeholder="UPDATE `resu... " />
-                <marker date="1453399487637" expanded="true" signature="1226:1272" placeholder="SELECT answe... questions" />
-                <marker date="1453399487637" expanded="true" signature="1445:1490" placeholder="SELECT score... score" />
-                <marker date="1453399487637" expanded="true" signature="1705:1755" placeholder="UPDATE `scor... " />
-                <marker date="1453399487637" expanded="true" signature="1921:1976" placeholder="SELECT * FRO... result" />
-                <marker date="1453399487637" expanded="true" signature="2302:2345" placeholder="SELECT * FRO... questions" />
-                <marker date="1453399487637" expanded="true" signature="2546:2579" placeholder="SELECT SUM(q... category" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -76,8 +45,8 @@
       <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controller/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39779004">
-              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.22099447">
+              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -413,7 +382,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/model/TestModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47272727">
+        <state vertical-scroll-proportion="-0.029748283">
           <caret line="20" column="66" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="66" />
           <folding>
             <marker date="1453399487637" expanded="true" signature="159:210" placeholder="SELECT COUNT... score" />
@@ -430,34 +399,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/test.php">
+    <entry file="file://$PROJECT_DIR$/app/view/admin/addquestion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.125">
-          <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.62099445">
+          <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/admin/addquestion.php">
+    <entry file="file://$PROJECT_DIR$/app/view/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.166667">
-          <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+        <state vertical-scroll-proportion="-10.625">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controller/TestController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.927273">
-          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+        <state vertical-scroll-proportion="-14.181818">
+          <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controller/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39779004">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.22099447">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
           <folding />
         </state>
       </provider>

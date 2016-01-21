@@ -1,0 +1,170 @@
+[27-May-2015 16:35:39 Europe/Berlin] PHP Notice:  Use of undefined constant HTTPS_ONLY - assumed 'HTTPS_ONLY' in E:\xampp\htdocs\quizv2\dales\kernel\checks.php on line 58
+[27-May-2015 16:35:46 Europe/Berlin] PHP Notice:  Use of undefined constant HTTPS_ONLY - assumed 'HTTPS_ONLY' in E:\xampp\htdocs\quizv2\dales\kernel\checks.php on line 58
+[27-May-2015 16:36:22 Europe/Berlin] PHP Notice:  Undefined variable: admin in E:\xampp\htdocs\quizv2\dales\system\Auth\Auth.php on line 23
+[27-May-2015 16:53:57 Europe/Berlin] PHP Notice:  Undefined variable: admin in E:\xampp\htdocs\quizv2\dales\system\Auth\Auth.php on line 23
+[27-May-2015 17:03:40 Europe/Berlin] PHP Notice:  Undefined variable: admin in E:\xampp\htdocs\quizv2\dales\system\Auth\Auth.php on line 23
+[27-May-2015 17:40:02 Europe/Berlin] PHP Notice:  Undefined variable: admin in E:\xampp\htdocs\quizv2\dales\system\Auth\Auth.php on line 23
+[27-May-2015 17:40:08 Europe/Berlin] PHP Notice:  Undefined variable: admin in E:\xampp\htdocs\quizv2\dales\system\Auth\Auth.php on line 23
+[27-May-2015 17:40:58 Europe/Berlin] PHP Notice:  Undefined variable: demo in E:\xampp\htdocs\quizv2\dales\system\Auth\Auth.php on line 23
+[21-Jan-2016 07:51:14 UTC] PHP Fatal error:  Call to a member function prepare() on null in /var/www/quiz.local/dales/system/Auth/Auth.php on line 12
+[21-Jan-2016 07:51:55 UTC] PHP Notice:  Undefined variable: admin in /var/www/quiz.local/dales/system/Auth/Auth.php on line 23
+[21-Jan-2016 07:54:10 UTC] PHP Notice:  Undefined variable: admin in /var/www/quiz.local/dales/system/Auth/Auth.php on line 23
+[21-Jan-2016 07:57:23 UTC] PHP Notice:  Undefined variable: kajsn in /var/www/quiz.local/dales/system/Auth/Auth.php on line 23
+[21-Jan-2016 07:57:55 UTC] PHP Notice:  Undefined variable: admin in /var/www/quiz.local/dales/system/Auth/Auth.php on line 23
+[21-Jan-2016 08:02:47 UTC] PHP Notice:  Undefined variable: kajsn in /var/www/quiz.local/dales/system/Auth/Auth.php on line 23
+[21-Jan-2016 08:03:59 UTC] PHP Notice:  Undefined variable: admin in /var/www/quiz.local/dales/system/Auth/Auth.php on line 23
+[21-Jan-2016 08:09:51 UTC] PHP Notice:  Undefined variable: kajsn in /var/www/quiz.local/dales/system/Auth/Auth.php on line 23
+[21-Jan-2016 08:19:02 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:07:21 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:07:21 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:07:27 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:19:10 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:19:27 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:19:31 UTC] PHP Fatal error:  Call to a member function prepare() on null in /var/www/quiz.local/dales/system/Auth/Auth.php on line 12
+[21-Jan-2016 10:20:20 UTC] PHP Notice:  Undefined variable: admin in /var/www/quiz.local/dales/system/Auth/Auth.php on line 23
+[21-Jan-2016 10:20:21 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:20:24 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:20:31 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:20:40 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:20:41 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:20:43 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:26:33 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:27:13 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:27:49 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:28:26 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:29:10 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:29:59 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:30:55 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:31:25 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:32:23 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:35:35 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:36:38 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:37:28 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:38:25 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:39:22 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:40:38 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:41:29 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:42:24 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:43:08 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:43:50 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:44:44 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:46:09 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:46:12 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:46:29 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:46:31 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:46:34 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:47:56 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:48:43 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:50:10 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:50:13 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:50:15 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:50:17 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:50:26 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:50:50 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:54:28 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:55:37 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:56:18 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:57:04 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:58:07 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:58:52 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:59:22 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 10:59:55 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:01:18 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:02:20 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:03:22 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:04:27 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:05:31 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:05:40 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:05:43 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:06:04 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:06:05 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:06:07 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:10:44 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:11:32 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:12:17 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:14:05 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:14:58 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:15:41 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:16:14 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:16:49 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:18:33 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:19:50 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:20:32 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:21:28 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:22:06 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:22:50 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:23:45 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:23:46 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:29:18 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:29:23 UTC] PHP Notice:  Undefined variable: new in /var/www/quiz.local/dales/system/Auth/Auth.php on line 23
+[21-Jan-2016 11:29:23 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:29:26 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:29:28 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:29:29 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:29:32 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:29:36 UTC] PHP Notice:  Undefined variable: admin in /var/www/quiz.local/dales/system/Auth/Auth.php on line 23
+[21-Jan-2016 11:29:36 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:29:38 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:29:47 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:29:51 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:29:56 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:29:59 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:30:01 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:30:12 UTC] PHP Notice:  Undefined variable: new in /var/www/quiz.local/dales/system/Auth/Auth.php on line 23
+[21-Jan-2016 11:30:13 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:30:15 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:30:22 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:30:25 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:30:27 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:30:30 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:30:33 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:30:36 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:30:39 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:30:42 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:30:45 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:30:48 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:30:51 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:30:55 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:30:57 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:31:01 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:31:04 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:31:06 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:31:09 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:31:15 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:31:17 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:31:20 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:31:23 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:31:26 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:31:28 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:31:31 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:31:33 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:31:36 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:31:39 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:31:41 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:31:43 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:31:46 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:31:49 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:31:57 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:32:00 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:32:03 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:32:05 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:32:07 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:32:09 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:32:12 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:32:14 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:32:16 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:32:19 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:32:25 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:32:27 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:32:30 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:32:32 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:32:35 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:32:37 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:32:40 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:32:43 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 11:32:46 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 12:43:33 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 12:43:33 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 12:43:40 UTC] PHP Notice:  Undefined variable: admin in /var/www/quiz.local/dales/system/Auth/Auth.php on line 23
+[21-Jan-2016 12:43:40 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
+[21-Jan-2016 12:43:40 UTC] PHP Fatal error:  Class 'dales\error\error' not found in /var/www/quiz.local/dales/kernel/kernel.php on line 33
